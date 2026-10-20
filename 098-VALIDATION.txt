@@ -1,0 +1,23 @@
+Local validation — October 20, 2026
+Rebuilt from an extracted ZIP using Python standard library.
+All eight metric populations and control totals reconcile to the frozen CSV.
+All 38,309 report keys/classifications and 306,472 raw/parsed measurements round-trip.
+Database integrity and foreign key checks pass.
+Diagram PNG visually inspected; HTML layout not browser-verified.
+No remote CI run.
+
+test_annual_classification_preserved (test_model.ModelTests) ... ok
+test_foreign_key_rejects_orphan (test_model.ModelTests) ... ok
+test_measurement_state_consistency (test_model.ModelTests) ... ok
+test_missing_is_not_zero (test_model.ModelTests) ... ok
+test_natural_key_rejects_duplicate (test_model.ModelTests) ... ok
+test_parser_retains_invalid_separately (test_model.ModelTests) ... ok
+test_preaggregation_prevents_fanout (test_model.ModelTests) ... ok
+test_report_and_measurement_grains (test_model.ModelTests) ... ok
+test_source_keys_and_values_round_trip (test_model.ModelTests) ... ok
+test_traceability_and_integrity (test_model.ModelTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 3.684s
+
+OK

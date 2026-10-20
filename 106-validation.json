@@ -1,0 +1,83 @@
+{
+  "snapshot_date": "2026-10-20",
+  "reports": 38309,
+  "buildings": 3871,
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "measurements": 306472,
+  "measurement_statuses": {
+    "missing": 22247,
+    "reported": 284225
+  },
+  "foreign_key_violations": 0,
+  "parse_exceptions": 0,
+  "metric_reconciliation": [
+    {
+      "metric": "property_gfa",
+      "reported_values": 38309,
+      "missing_or_invalid": 0,
+      "source_control_sum": 4128934623.0,
+      "model_control_sum": 4128934623.0
+    },
+    {
+      "metric": "self_report_gfa",
+      "reported_values": 38309,
+      "missing_or_invalid": 0,
+      "source_control_sum": 4194919245.0,
+      "model_control_sum": 4194919245.0
+    },
+    {
+      "metric": "site_eui_wn",
+      "reported_values": 36348,
+      "missing_or_invalid": 1961,
+      "source_control_sum": 2079480.298515784,
+      "model_control_sum": 2079480.2985158
+    },
+    {
+      "metric": "site_eui",
+      "reported_values": 36747,
+      "missing_or_invalid": 1562,
+      "source_control_sum": 2101562.696322457,
+      "model_control_sum": 2101562.6963224676
+    },
+    {
+      "metric": "site_energy",
+      "reported_values": 36754,
+      "missing_or_invalid": 1555,
+      "source_control_sum": 341595132525.4,
+      "model_control_sum": 341595132525.4
+    },
+    {
+      "metric": "electricity",
+      "reported_values": 37209,
+      "missing_or_invalid": 1100,
+      "source_control_sum": 39981833838.2,
+      "model_control_sum": 39981833838.2
+    },
+    {
+      "metric": "natural_gas",
+      "reported_values": 23480,
+      "missing_or_invalid": 14829,
+      "source_control_sum": 587023878.4,
+      "model_control_sum": 587023878.4000001
+    },
+    {
+      "metric": "ghg",
+      "reported_values": 37069,
+      "missing_or_invalid": 1240,
+      "source_control_sum": 7191777.28,
+      "model_control_sum": 7191777.280000033
+    }
+  ]
+}

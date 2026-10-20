@@ -1,0 +1,5 @@
+file,line,system,table,column,reason
+export-3.csv,3,vendor,suppliers,name,missing or invalid owner
+export-3.csv,4,vendor,suppliers,rating,unknown data_type
+export-1.csv,3,crm,accounts,email,conflicting metadata for same key
+export-3.csv,2,crm,accounts,email,conflicting metadata for same key

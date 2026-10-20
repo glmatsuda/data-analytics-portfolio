@@ -1,0 +1,9 @@
+{
+  "as_of": "2026-06-30",
+  "requests": 480,
+  "closed": 378,
+  "on_time_closed": 132,
+  "overdue_open": 82,
+  "open": 102,
+  "closed_sla_rate": 0.3492063492063492
+}

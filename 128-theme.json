@@ -1,0 +1,12 @@
+{
+  "name": "Governance demo",
+  "dataColors": [
+    "#137E8D",
+    "#EAA044",
+    "#5665A6",
+    "#80969C"
+  ],
+  "background": "#F4F6F8",
+  "foreground": "#172C3C",
+  "tableAccent": "#137E8D"
+}

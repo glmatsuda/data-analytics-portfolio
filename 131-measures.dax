@@ -1,0 +1,14 @@
+-- Create each measure separately on table Requests (not a DAX query batch).
+Requests Count = COUNTROWS(Requests)
+
+Closed Requests = SUM(Requests[closed_flag])
+
+Open Requests = [Requests Count] - [Closed Requests]
+
+On Time Closed = SUM(Requests[on_time_flag])
+
+Closed SLA Rate = DIVIDE([On Time Closed], [Closed Requests])
+
+Overdue Open = SUM(Requests[overdue_flag])
+
+Average Cycle Days = CALCULATE(AVERAGE(Requests[age_or_cycle_days]), Requests[closed_flag] = 1)

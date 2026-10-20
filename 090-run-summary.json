@@ -1,0 +1,21 @@
+{
+  "accepted_unique_columns": 7,
+  "conflicting_rows": 2,
+  "duplicate_rows_collapsed": 1,
+  "input_files": [
+    {
+      "file": "export-1.csv",
+      "sha256": "937e49920918672f200bb3ab727eca7b72e96c32c6a3ae9d3b4802a9c7ff8605"
+    },
+    {
+      "file": "export-2.csv",
+      "sha256": "b1bdc1ee84563249bbadc32a946264dea62a48390bf328b47152624fec081880"
+    },
+    {
+      "file": "export-3.csv",
+      "sha256": "28852fc68faf46e105a8f3a1d273e5370cade88fb8418c7de640ce3e918b0ab6"
+    }
+  ],
+  "input_rows": 12,
+  "rejected_rows": 4
+}
