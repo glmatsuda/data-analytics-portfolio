@@ -1,6 +1,6 @@
-# Data analytics, governance & modeling portfolio
+# Data science, analytics, governance & modeling portfolio
 
-Independent portfolio by **Gian-Luca Matsuda**. Seven projects demonstrating SQL, Python, R/RStudio, Excel, data governance, data research and data modeling.
+Independent portfolio by **Gian-Luca Matsuda**. Seven projects demonstrating data science, data research, data governance and data modeling using SQL, Python, R/RStudio and Excel.
 
 **These are sample projects, not paid client engagements.** The first three use clearly labeled synthetic data. The Seattle studies use public records and are not affiliated with the City of Seattle. Code and documentation were developed with AI assistance and locally executed/validated; each project documents its methods and limitations.
 
