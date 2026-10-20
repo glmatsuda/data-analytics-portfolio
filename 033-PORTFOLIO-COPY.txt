@@ -1,0 +1,8 @@
+TITLE
+RStudio: Fremont Bridge Crossings, Data Quality & Calendar Modelling
+
+DESCRIPTION
+Prepared hourly Seattle counter records into a daily SQL data model with explicit completeness rules. Built a calendar-based quasi-Poisson model in R and compared it with a training-only weekday baseline. The report includes temporal validation, actual predictions, coverage exceptions and a model card. Results vary by evaluation year; no future performance or causal effects are claimed. Independent, AI-assisted public-data portfolio demonstration; no client or city affiliation.
+
+SUGGESTED SKILLS
+R, data science, statistical modelling, data quality, reproducible research

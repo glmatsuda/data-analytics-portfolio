@@ -1,0 +1,9 @@
+{
+  "source_rows": 26304,
+  "calendar_days": 1096,
+  "complete_days": 1092,
+  "excluded_incomplete_days": 4,
+  "invalid_hour_rows": 14,
+  "study_window": "2022-01-01 through 2024-12-31",
+  "policy": "Only 24 unique hours with nonmissing nonnegative integer counts and matching totals. All other days remain present with null daily counts; never zero filled."
+}

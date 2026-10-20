@@ -1,0 +1,7 @@
+product_id,category,product_name,price_cents,unit_cost_cents
+P01,Workspace,Desk kit,4500,2300
+P02,Workspace,Stand,6900,3400
+P03,Accessories,Cable kit,1900,700
+P04,Accessories,Hub,3900,1700
+P05,Storage,Organizer,2900,1100
+P06,Storage,Case,5900,2800

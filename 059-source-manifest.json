@@ -1,0 +1,19 @@
+{
+  "source_id": "65db-xm6k",
+  "title": "Fremont Bridge - Combined Bicycle and Scooter Counter",
+  "landing_page": "https://data.seattle.gov/Transportation/Fremont-Bridge-Combined-Bicycle-and-Scooter-Counte/65db-xm6k",
+  "retrieved_date": "2026-10-20",
+  "license": "Public Domain",
+  "original_export_rows": 122675,
+  "original_export_sha256": "8d9e88ef2a4de57b48a1300b77fe0efb4852babc08a7e281dde10449728cb259",
+  "included_rows": 26304,
+  "included_csv_sha256": "b6238ac9ad4ce51fb8dcbee35a1d65492eb77a7fda9c30a4262f413b6822e066",
+  "fields": [
+    "Date",
+    "Fremont Bridge Sidewalks, south of N 34th St Total",
+    "Fremont Bridge Sidewalks, south of N 34th St Cyclist West Sidewalk",
+    "Fremont Bridge Sidewalks, south of N 34th St Cyclist East Sidewalk"
+  ],
+  "transform_before_snapshot": "Rows with local timestamps in calendar years 2022\u20132024, no values changed",
+  "refresh": "Use the source landing page Export > All data > CSV. Preserve the old snapshot; replace data/source.csv only after applying the documented projection/window, update this manifest, rerun and compare validation outputs. Source API schemas may change."
+}

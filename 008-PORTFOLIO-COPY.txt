@@ -1,0 +1,8 @@
+TITLE
+RStudio: Building Energy Prediction with Temporal Validation
+
+DESCRIPTION
+Developed an interpretable R regression study using prior-year building attributes to predict next-year weather-normalized EUI. Included chronological validation, a prior-year baseline, reproducible outputs and a model card. On 3,231 eligible 2024 records, MAE was 16.75 versus 19.65 for baseline, while other years and metrics exposed limitations. Independent, AI-assisted public-data portfolio demonstration; no client or city affiliation.
+
+SUGGESTED SKILLS
+R, data science, statistical modelling, data quality, reproducible research

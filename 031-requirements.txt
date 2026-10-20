@@ -1,0 +1,1 @@
+# Python 3.10+ standard library. R projects additionally require R 4.2+ (base/recommended packages only).
