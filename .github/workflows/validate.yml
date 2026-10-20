@@ -1,0 +1,35 @@
+name: Validate portfolio projects
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  python-checks:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [sql-retail-analytics, python-metadata-automation, governance-operations-dashboard, seattle-energy-data-platform, seattle-energy-relational-model, rstudio-fremont-mobility]
+    defaults:
+      run:
+        working-directory: projects/${{ matrix.project }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -v
+  dashboard-checks:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/seattle-energy-data-platform
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python pipeline.py
+      - run: node tests/test_dashboard.js

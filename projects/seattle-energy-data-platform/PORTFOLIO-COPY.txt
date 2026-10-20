@@ -1,0 +1,8 @@
+TITLE
+Seattle Building Energy: Data Governance, SQL Model & Dashboard
+
+DESCRIPTION
+Built a reproducible analytics workflow from Seattle building benchmarking records. The project includes a five-dimension SQL star model, source lineage and hashes, automated reconciliation checks, an offline dashboard, and Power BI/Tableau handoff notes. Filters recompute coverage and median intensity from individual building-year records. The source/metadata year mismatch and changing cohorts are documented. Independent, AI-assisted public-data portfolio demonstration; no client or city affiliation.
+
+SUGGESTED SKILLS
+SQL, data modelling, data governance, data quality, dashboards

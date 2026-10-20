@@ -1,0 +1,1 @@
+Source data: City of Seattle Open Data. Both source catalogue pages identify their license as Public Domain. Code is MIT licensed separately. Independent portfolio analysis, not commissioned by or endorsed by the City of Seattle. Preserve source attribution and snapshot context.

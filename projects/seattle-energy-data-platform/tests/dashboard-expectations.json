@@ -1,0 +1,47 @@
+[
+  {
+    "year": 2024,
+    "use": "",
+    "hood": "",
+    "records": 3712,
+    "eligible": 3425,
+    "compliant": 3575,
+    "median": 35.5
+  },
+  {
+    "year": 2023,
+    "use": "",
+    "hood": "",
+    "records": 3687,
+    "eligible": 3422,
+    "compliant": 3544,
+    "median": 35.70000076
+  },
+  {
+    "year": 2024,
+    "use": "Office",
+    "hood": "",
+    "records": 479,
+    "eligible": 443,
+    "compliant": 465,
+    "median": 41.20000076
+  },
+  {
+    "year": 2024,
+    "use": "",
+    "hood": "DOWNTOWN",
+    "records": 618,
+    "eligible": 570,
+    "compliant": 599,
+    "median": 42.70000076
+  },
+  {
+    "year": 2024,
+    "use": "Office",
+    "hood": "DOWNTOWN",
+    "records": 212,
+    "eligible": 199,
+    "compliant": 206,
+    "median": 39.29999924
+  }
+]

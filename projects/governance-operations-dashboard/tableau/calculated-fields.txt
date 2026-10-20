@@ -1,0 +1,22 @@
+Create each field separately. Input flags and days are whole numbers.
+
+Requests Count
+COUNT([ticket_id])
+
+Closed Requests
+SUM([closed_flag])
+
+Open Requests
+COUNT([ticket_id]) - SUM([closed_flag])
+
+Closed SLA Rate
+IF SUM([closed_flag]) > 0 THEN SUM([on_time_flag]) / SUM([closed_flag]) END
+
+Overdue Open
+SUM([overdue_flag])
+
+Average Cycle Days
+AVG(IF [closed_flag] = 1 THEN [age_or_cycle_days] END)
+
+Created Month
+DATETRUNC('month', [created_date])

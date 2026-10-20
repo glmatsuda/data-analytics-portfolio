@@ -1,0 +1,8 @@
+system,table,column,data_type,owner,classification
+crm,accounts,account_id,integer,crm@example.com,Internal
+crm,accounts,country,string,crm@example.com,Internal
+finance,invoices,amount,decimal,finance@example.com,Confidential
+finance,invoices,due_date,date,finance@example.com,Internal
+finance,invoices,invoice_id,integer,finance@example.com,Internal
+product,items,active,boolean,product@example.com,Public
+product,items,item_id,integer,product@example.com,Public

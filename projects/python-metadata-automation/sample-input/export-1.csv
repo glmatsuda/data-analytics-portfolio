@@ -1,0 +1,5 @@
+system,table,column,data_type,owner,classification
+crm,accounts,account_id,integer,crm@example.com,Internal
+crm,accounts,email,string,crm@example.com,Restricted
+crm,accounts,country,string,crm@example.com,Internal
+finance,invoices,invoice_id,integer,finance@example.com,Internal

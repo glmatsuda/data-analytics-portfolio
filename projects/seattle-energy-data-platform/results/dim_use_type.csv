@@ -1,0 +1,75 @@
+use_key,property_use
+1,Adult Education
+2,Aquarium
+3,Bank Branch
+4,Bowling Alley
+5,College/University
+6,Convenience Store without Gas Station
+7,Convention Center
+8,Courthouse
+9,Data Center
+10,Distribution Center
+11,Enclosed Mall
+12,Energy/Power Station
+13,Financial Office
+14,Fire Station
+15,Fitness Center/Health Club/Gym
+16,Food Service
+17,Hospital (General Medical & Surgical)
+18,Hotel
+19,Ice/Curling Rink
+20,Indoor Arena
+21,K-12 School
+22,Laboratory
+23,Library
+24,Lifestyle Center
+25,Mailing Center/Post Office
+26,Manufacturing/Industrial Plant
+27,Medical Office
+28,Mixed Use Property
+29,Movie Theater
+30,Multifamily HR (10+)
+31,Multifamily Housing
+32,Multifamily LR (1-4)
+33,Multifamily MR (5-9)
+34,Museum
+35,NA
+36,Non-Refrigerated Warehouse
+37,Office
+38,Other
+39,Other - Education
+40,Other - Entertainment/Public Assembly
+41,Other - Lodging/Residential
+42,Other - Mall
+43,Other - Public Services
+44,Other - Recreation
+45,Other - Restaurant/Bar
+46,Other - Services
+47,Other - Technology/Science
+48,Other - Utility
+49,Other/Specialty Hospital
+50,Outpatient Rehabilitation/Physical Therapy
+51,Parking
+52,Performing Arts
+53,"Personal Services (Health/Beauty, Dry Cleaning, etc)"
+54,Police Station
+55,Pre-school/Daycare
+56,Prison/Incarceration
+57,Refrigerated Warehouse
+58,Residence Hall/Dormitory
+59,Residential Care Facility
+60,Restaurant
+61,Retail Store
+62,Self-Storage Facility
+63,Senior Living Community
+64,Single Family Home
+65,Social/Meeting Hall
+66,Stadium (Open)
+67,Strip Mall
+68,Supermarket/Grocery Store
+69,Transportation Terminal/Station
+70,Urgent Care/Clinic/Other Outpatient
+71,Vehicle Dealership
+72,Vehicle Repair Services
+73,Wholesale Club/Supercenter
+74,Worship Facility

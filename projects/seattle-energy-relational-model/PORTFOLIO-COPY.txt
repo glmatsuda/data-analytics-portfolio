@@ -1,0 +1,8 @@
+TITLE
+Seattle Open Data: Relational Energy Data Model
+
+DESCRIPTION
+Independent public-data portfolio study, not client work. I modeled 38,309 Seattle building-year reports from 2015–2025 into seven related SQLite tables, separating building identity, annual classifications, metric definitions, measurements, and source provenance. The project includes conceptual and relational designs, an executable schema, data dictionary, working database, SQL analysis, and automated validation. Each of 306,472 modeled measurements retains its raw source value, unit, and reporting state. Missing values remain distinct from zero; a reporting view prevents measurement joins from multiplying report counts. AI-assisted code was executed and tested locally. Public records are from Seattle Open Data, catalogue teqw-tu6e. This is a relational modeling study of the same source used in my Seattle dashboard project, with no invented client or governance records.
+
+SKILLS
+Data modeling; SQL; SQLite; relational databases; data governance; metadata; source lineage; data quality; Python; public-data research.

@@ -1,0 +1,22 @@
+"term","estimate"
+"(Intercept)",0.51357289820958
+"log1p(previous_eui)",0.853250347061905
+"log(previous_area)",-0.00178972028368032
+"previous_age",4.06541669661038e-05
+"use_groupDistribution Center",-0.0391272042470841
+"use_groupHotel",0.198941542379985
+"use_groupK-12 School",0.104142965681954
+"use_groupMedical Office",0.170676468226717
+"use_groupMixed Use Property",0.13104840271036
+"use_groupMultifamily HR (10+)",0.0596182313438974
+"use_groupMultifamily LR (1-4)",0.0104844889396448
+"use_groupMultifamily MR (5-9)",0.0334889122989012
+"use_groupNon-Refrigerated Warehouse",-0.024305763382228
+"use_groupOffice",0.0568888101570647
+"use_groupOther",0.156701287619198
+"use_groupOther - Recreation",0.2173319514047
+"use_groupRetail Store",0.0511412494698454
+"use_groupSelf-Storage Facility",-0.166451375897222
+"use_groupSenior Living Community",0.106291281015393
+"use_groupSupermarket/Grocery Store",0.222983755993656
+"use_groupWorship Facility",0.0529719567469917

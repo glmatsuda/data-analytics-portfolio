@@ -1,0 +1,5 @@
+"population","model","n","MAE","RMSE"
+"2023 validation","Calendar quasi-Poisson",363,1066.17880487175,1271.60106848994
+"2023 validation","Training weekday mean",363,906.096199806875,1086.65400662088
+"2024 holdout","Calendar quasi-Poisson",365,501.690481552206,668.857939593744
+"2024 holdout","Training weekday mean",365,890.946902221332,1031.69263210381

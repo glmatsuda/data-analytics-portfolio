@@ -1,0 +1,32 @@
+{
+  "source_id": "teqw-tu6e",
+  "title": "Building Energy Benchmarking Data, 2015-Present",
+  "landing_page": "https://data.seattle.gov/Built-Environment/Building-Energy-Benchmarking-Data-2015-Present/teqw-tu6e",
+  "retrieved_date": "2026-10-20",
+  "license": "Public Domain",
+  "original_export_rows": 38309,
+  "original_export_sha256": "da08189dae34e24cd4c1fb1ae4373ca9956fb4e979a9b5d1bd2f545047a732dc",
+  "included_rows": 38309,
+  "included_csv_sha256": "686d58b5ebb39cd0f9961765feb03fcf4e43969e1ce33ac6c0300ddaf6561814",
+  "fields": [
+    "OSEBuildingID",
+    "DataYear",
+    "BuildingType",
+    "EPAPropertyType",
+    "Neighborhood",
+    "YearBuilt",
+    "NumberofFloors",
+    "PropertyGFATotal",
+    "SelfReportGFATotal",
+    "SiteEUIWN(kBtu/sf)",
+    "SiteEUI(kBtu/sf)",
+    "SiteEnergyUse(kBtu)",
+    "Electricity(kWh)",
+    "NaturalGas(therms)",
+    "TotalGHGEmissions",
+    "ComplianceStatus",
+    "Demolished"
+  ],
+  "transform_before_snapshot": "Column projection only, all years",
+  "refresh": "Use the source landing page Export > All data > CSV. Preserve the old snapshot; replace data/source.csv only after applying the documented projection/window, update this manifest, rerun and compare validation outputs. Source API schemas may change."
+}

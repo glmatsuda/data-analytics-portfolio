@@ -1,0 +1,14 @@
+# Power BI build and acceptance checks
+**Build kit, not a finished PBIX. DAX, Power Query and theme have not been executed in Power BI here.**
+
+1. In Power BI Desktop create a blank report. In Power Query add a text parameter `DataPath` pointing to the full local `data/requests.csv` path. Create a blank query named **Requests**, open Advanced Editor and paste `Requests.pq`. Close & Apply. No relationship is necessary: this is a single fact table at request grain.
+2. Add the seven measures in `measures.dax` individually using New measure. Format counts as whole numbers, SLA rate as percent with one decimal, cycle days with one decimal. Do not sum `sla_days` or display an average of SLA percentages.
+3. Add a calculated column: `Created Month = DATE(YEAR(Requests[created_date]), MONTH(Requests[created_date]), 1)`. Format as `MMM yyyy`; sort ascending by this date field, not the formatted month name. It groups request creation cohorts, not closure throughput.
+4. Import `theme.json` from View > Themes. Set the canvas to 1280 × 800. Add title and a visible subtitle: **Synthetic portfolio demo | As of 2026-06-30 | Calendar-day SLA**.
+5. Top row: cards for Requests Count, Closed SLA Rate, Open Requests, Overdue Open. Second row: line chart (Created Month, Requests Count) and clustered bar chart (domain, Closed SLA Rate, axis 0–100%). Bottom: domain table with Requests Count, Closed Requests, On Time Closed, Closed SLA Rate and Overdue Open.
+6. Add domain and priority slicers; apply to all visuals. Leave status unsliced for the reference view. Tooltips: closed numerator/denominator and average cycle days. A zero closed denominator must show blank rather than 0%.
+7. Compare the unfiltered cards to `data/expected_metrics.json`. Filter to Supplier and High; independently count matching CSV rows and compare each card. Clear filters and verify original totals. Selecting a cohort month should filter all visuals to requests created in that month. Do not call that a closure-month SLA trend.
+8. Edit one *closed* late record so cycle equals sla_days and on_time_flag becomes 1, refresh, and confirm the numerator increases by 1 with the same denominator. Restore the fixture with `python generate_data.py` and refresh. Flags are snapshot inputs: editing only SLA days does not recompute them. A production model should derive flags in its refresh pipeline.
+9. Save `governance-operations.pbix`, reopen, test all slicers, then capture screenshots. Upload a screenshot only after confirming it matches the actual report. The supplied `preview.png` is a reference rendering, not a Power BI screenshot.
+
+Official reference: [Connect to data in Power BI Desktop](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-quickstart-connect-to-data). Native build and testing remain required.

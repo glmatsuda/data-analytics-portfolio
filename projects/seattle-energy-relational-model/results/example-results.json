@@ -1,0 +1,487 @@
+{
+  "annual_reporting_coverage": [
+    {
+      "reporting_year": 2015,
+      "reports": 3175,
+      "compliant": 3156,
+      "nonmissing_eui": 3130,
+      "positive_eui": 3130
+    },
+    {
+      "reporting_year": 2016,
+      "reports": 3253,
+      "compliant": 3090,
+      "nonmissing_eui": 3192,
+      "positive_eui": 3192
+    },
+    {
+      "reporting_year": 2017,
+      "reports": 3310,
+      "compliant": 3049,
+      "nonmissing_eui": 3259,
+      "positive_eui": 3259
+    },
+    {
+      "reporting_year": 2018,
+      "reports": 3381,
+      "compliant": 2997,
+      "nonmissing_eui": 3325,
+      "positive_eui": 3325
+    },
+    {
+      "reporting_year": 2019,
+      "reports": 3456,
+      "compliant": 3179,
+      "nonmissing_eui": 3367,
+      "positive_eui": 3367
+    },
+    {
+      "reporting_year": 2020,
+      "reports": 3530,
+      "compliant": 3364,
+      "nonmissing_eui": 3448,
+      "positive_eui": 3448
+    },
+    {
+      "reporting_year": 2021,
+      "reports": 3578,
+      "compliant": 3387,
+      "nonmissing_eui": 3102,
+      "positive_eui": 3102
+    },
+    {
+      "reporting_year": 2022,
+      "reports": 3617,
+      "compliant": 3113,
+      "nonmissing_eui": 3161,
+      "positive_eui": 3161
+    },
+    {
+      "reporting_year": 2023,
+      "reports": 3687,
+      "compliant": 3544,
+      "nonmissing_eui": 3464,
+      "positive_eui": 3464
+    },
+    {
+      "reporting_year": 2024,
+      "reports": 3712,
+      "compliant": 3575,
+      "nonmissing_eui": 3473,
+      "positive_eui": 3473
+    },
+    {
+      "reporting_year": 2025,
+      "reports": 3610,
+      "compliant": 3342,
+      "nonmissing_eui": 3427,
+      "positive_eui": 3427
+    }
+  ],
+  "2024_neighborhood_energy": [
+    {
+      "neighborhood": "NORTHEAST",
+      "reports": 325,
+      "energy_reporting_count": 303,
+      "reported_energy_kbtu": 9680638717.0
+    },
+    {
+      "neighborhood": "DOWNTOWN",
+      "reports": 618,
+      "energy_reporting_count": 586,
+      "reported_energy_kbtu": 5416604680.0
+    },
+    {
+      "neighborhood": "LAKE UNION",
+      "reports": 315,
+      "energy_reporting_count": 301,
+      "reported_energy_kbtu": 2238745518.0
+    },
+    {
+      "neighborhood": "GREATER DUWAMISH",
+      "reports": 370,
+      "energy_reporting_count": 357,
+      "reported_energy_kbtu": 1987728853.0
+    },
+    {
+      "neighborhood": "EAST",
+      "reports": 507,
+      "energy_reporting_count": 477,
+      "reported_energy_kbtu": 1944263152.0
+    },
+    {
+      "neighborhood": "MAGNOLIA / QUEEN ANNE",
+      "reports": 468,
+      "energy_reporting_count": 436,
+      "reported_energy_kbtu": 1465823105.0
+    },
+    {
+      "neighborhood": "NORTHWEST",
+      "reports": 272,
+      "energy_reporting_count": 262,
+      "reported_energy_kbtu": 1075867150.0
+    },
+    {
+      "neighborhood": "CENTRAL",
+      "reports": 154,
+      "energy_reporting_count": 145,
+      "reported_energy_kbtu": 524624810.0
+    },
+    {
+      "neighborhood": "SOUTHWEST",
+      "reports": 185,
+      "energy_reporting_count": 173,
+      "reported_energy_kbtu": 417010129.0
+    },
+    {
+      "neighborhood": "BALLARD",
+      "reports": 154,
+      "energy_reporting_count": 143,
+      "reported_energy_kbtu": 405759740.0
+    },
+    {
+      "neighborhood": "DELRIDGE NEIGHBORHOODS",
+      "reports": 84,
+      "energy_reporting_count": 81,
+      "reported_energy_kbtu": 393846792.0
+    },
+    {
+      "neighborhood": "NORTH",
+      "reports": 147,
+      "energy_reporting_count": 140,
+      "reported_energy_kbtu": 382283349.0
+    },
+    {
+      "neighborhood": "SOUTHEAST",
+      "reports": 113,
+      "energy_reporting_count": 104,
+      "reported_energy_kbtu": 344210106.0
+    }
+  ],
+  "2024_metric_completeness": [
+    {
+      "label": "Electricity",
+      "unit": "kWh",
+      "value_status": "missing",
+      "measurements": 182
+    },
+    {
+      "label": "Electricity",
+      "unit": "kWh",
+      "value_status": "reported",
+      "measurements": 3530
+    },
+    {
+      "label": "Greenhouse gas emissions",
+      "unit": "metric tons CO2e",
+      "value_status": "missing",
+      "measurements": 182
+    },
+    {
+      "label": "Greenhouse gas emissions",
+      "unit": "metric tons CO2e",
+      "value_status": "reported",
+      "measurements": 3530
+    },
+    {
+      "label": "Natural gas",
+      "unit": "therms",
+      "value_status": "missing",
+      "measurements": 1407
+    },
+    {
+      "label": "Natural gas",
+      "unit": "therms",
+      "value_status": "reported",
+      "measurements": 2305
+    },
+    {
+      "label": "Property gross floor area",
+      "unit": "sqft",
+      "value_status": "reported",
+      "measurements": 3712
+    },
+    {
+      "label": "Self-reported gross floor area",
+      "unit": "sqft",
+      "value_status": "reported",
+      "measurements": 3712
+    },
+    {
+      "label": "Site energy use",
+      "unit": "kBtu",
+      "value_status": "missing",
+      "measurements": 204
+    },
+    {
+      "label": "Site energy use",
+      "unit": "kBtu",
+      "value_status": "reported",
+      "measurements": 3508
+    },
+    {
+      "label": "Site EUI",
+      "unit": "kBtu/sqft",
+      "value_status": "missing",
+      "measurements": 204
+    },
+    {
+      "label": "Site EUI",
+      "unit": "kBtu/sqft",
+      "value_status": "reported",
+      "measurements": 3508
+    },
+    {
+      "label": "Weather-normalized site EUI",
+      "unit": "kBtu/sqft",
+      "value_status": "missing",
+      "measurements": 239
+    },
+    {
+      "label": "Weather-normalized site EUI",
+      "unit": "kBtu/sqft",
+      "value_status": "reported",
+      "measurements": 3473
+    }
+  ],
+  "reported_classification_changes": [
+    {
+      "building_id": "110",
+      "reporting_year": 2018,
+      "property_use": "Social/Meeting Hall",
+      "previous_use": "Other",
+      "previous_year": 2017
+    },
+    {
+      "building_id": "112",
+      "reporting_year": 2019,
+      "property_use": "Performing Arts",
+      "previous_use": "Other",
+      "previous_year": 2018
+    },
+    {
+      "building_id": "113",
+      "reporting_year": 2016,
+      "property_use": "Other",
+      "previous_use": "Office",
+      "previous_year": 2015
+    },
+    {
+      "building_id": "1280",
+      "reporting_year": 2016,
+      "property_use": "Mixed Use Property",
+      "previous_use": "Office",
+      "previous_year": 2015
+    },
+    {
+      "building_id": "1281",
+      "reporting_year": 2018,
+      "property_use": "Mixed Use Property",
+      "previous_use": "Office",
+      "previous_year": 2017
+    },
+    {
+      "building_id": "1281",
+      "reporting_year": 2021,
+      "property_use": "Office",
+      "previous_use": "Mixed Use Property",
+      "previous_year": 2020
+    },
+    {
+      "building_id": "13",
+      "reporting_year": 2025,
+      "property_use": "Multifamily Housing",
+      "previous_use": "Multifamily MR (5-9)",
+      "previous_year": 2024
+    },
+    {
+      "building_id": "131",
+      "reporting_year": 2025,
+      "property_use": "Data Center",
+      "previous_use": "Other",
+      "previous_year": 2024
+    },
+    {
+      "building_id": "132",
+      "reporting_year": 2019,
+      "property_use": "Supermarket/Grocery Store",
+      "previous_use": "Other",
+      "previous_year": 2018
+    },
+    {
+      "building_id": "132",
+      "reporting_year": 2021,
+      "property_use": "Strip Mall",
+      "previous_use": "Supermarket/Grocery Store",
+      "previous_year": 2020
+    },
+    {
+      "building_id": "136",
+      "reporting_year": 2021,
+      "property_use": "Multifamily LR (1-4)",
+      "previous_use": "Hotel",
+      "previous_year": 2020
+    },
+    {
+      "building_id": "136",
+      "reporting_year": 2025,
+      "property_use": "Multifamily Housing",
+      "previous_use": "Multifamily LR (1-4)",
+      "previous_year": 2024
+    },
+    {
+      "building_id": "139",
+      "reporting_year": 2021,
+      "property_use": "Multifamily LR (1-4)",
+      "previous_use": "Hotel",
+      "previous_year": 2020
+    },
+    {
+      "building_id": "139",
+      "reporting_year": 2025,
+      "property_use": "Multifamily Housing",
+      "previous_use": "Multifamily LR (1-4)",
+      "previous_year": 2024
+    },
+    {
+      "building_id": "145",
+      "reporting_year": 2017,
+      "property_use": "Mixed Use Property",
+      "previous_use": "Other - Entertainment/Public Assembly",
+      "previous_year": 2016
+    },
+    {
+      "building_id": "145",
+      "reporting_year": 2021,
+      "property_use": "Performing Arts",
+      "previous_use": "Mixed Use Property",
+      "previous_year": 2020
+    },
+    {
+      "building_id": "163",
+      "reporting_year": 2017,
+      "property_use": "Fire Station",
+      "previous_use": "Other",
+      "previous_year": 2016
+    },
+    {
+      "building_id": "174",
+      "reporting_year": 2021,
+      "property_use": "Vehicle Repair Services",
+      "previous_use": "Other - Services",
+      "previous_year": 2020
+    },
+    {
+      "building_id": "179",
+      "reporting_year": 2020,
+      "property_use": "Worship Facility",
+      "previous_use": "Office",
+      "previous_year": 2019
+    },
+    {
+      "building_id": "179",
+      "reporting_year": 2024,
+      "property_use": "Multifamily LR (1-4)",
+      "previous_use": "Worship Facility",
+      "previous_year": 2023
+    }
+  ],
+  "source_trace_example": [
+    {
+      "building_id": "1",
+      "reporting_year": 2024,
+      "catalogue_id": "teqw-tu6e",
+      "retrieved_date": "2026-10-20",
+      "source_record": 3611,
+      "source_field": "Electricity(kWh)",
+      "unit": "kWh",
+      "raw_value": "1,045,040",
+      "value": 1045040.0,
+      "value_status": "reported"
+    },
+    {
+      "building_id": "1",
+      "reporting_year": 2024,
+      "catalogue_id": "teqw-tu6e",
+      "retrieved_date": "2026-10-20",
+      "source_record": 3611,
+      "source_field": "TotalGHGEmissions",
+      "unit": "metric tons CO2e",
+      "raw_value": "263.3",
+      "value": 263.3,
+      "value_status": "reported"
+    },
+    {
+      "building_id": "1",
+      "reporting_year": 2024,
+      "catalogue_id": "teqw-tu6e",
+      "retrieved_date": "2026-10-20",
+      "source_record": 3611,
+      "source_field": "NaturalGas(therms)",
+      "unit": "therms",
+      "raw_value": "15,986",
+      "value": 15986.0,
+      "value_status": "reported"
+    },
+    {
+      "building_id": "1",
+      "reporting_year": 2024,
+      "catalogue_id": "teqw-tu6e",
+      "retrieved_date": "2026-10-20",
+      "source_record": 3611,
+      "source_field": "PropertyGFATotal",
+      "unit": "sqft",
+      "raw_value": "88,434",
+      "value": 88434.0,
+      "value_status": "reported"
+    },
+    {
+      "building_id": "1",
+      "reporting_year": 2024,
+      "catalogue_id": "teqw-tu6e",
+      "retrieved_date": "2026-10-20",
+      "source_record": 3611,
+      "source_field": "SelfReportGFATotal",
+      "unit": "sqft",
+      "raw_value": "115,387",
+      "value": 115387.0,
+      "value_status": "reported"
+    },
+    {
+      "building_id": "1",
+      "reporting_year": 2024,
+      "catalogue_id": "teqw-tu6e",
+      "retrieved_date": "2026-10-20",
+      "source_record": 3611,
+      "source_field": "SiteEnergyUse(kBtu)",
+      "unit": "kBtu",
+      "raw_value": "7,113,958",
+      "value": 7113958.0,
+      "value_status": "reported"
+    },
+    {
+      "building_id": "1",
+      "reporting_year": 2024,
+      "catalogue_id": "teqw-tu6e",
+      "retrieved_date": "2026-10-20",
+      "source_record": 3611,
+      "source_field": "SiteEUI(kBtu/sf)",
+      "unit": "kBtu/sqft",
+      "raw_value": "61.70000076",
+      "value": 61.70000076,
+      "value_status": "reported"
+    },
+    {
+      "building_id": "1",
+      "reporting_year": 2024,
+      "catalogue_id": "teqw-tu6e",
+      "retrieved_date": "2026-10-20",
+      "source_record": 3611,
+      "source_field": "SiteEUIWN(kBtu/sf)",
+      "unit": "kBtu/sqft",
+      "raw_value": "62.20000076",
+      "value": 62.20000076,
+      "value_status": "reported"
+    }
+  ]
+}

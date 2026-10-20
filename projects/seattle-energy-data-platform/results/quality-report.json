@@ -1,0 +1,28 @@
+{
+  "snapshot_date": "2026-10-20",
+  "source_rows": 38309,
+  "fact_rows": 38309,
+  "properties": 3871,
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "numeric_parse_exceptions": 0,
+  "foreign_key_violations": 0,
+  "source_site_energy_kbtu": 341595132525.4,
+  "mart_site_energy_kbtu": 341595132525.4,
+  "2024": {
+    "records": 3712,
+    "compliant": 3575,
+    "eligible_eui": 3425
+  }
+}

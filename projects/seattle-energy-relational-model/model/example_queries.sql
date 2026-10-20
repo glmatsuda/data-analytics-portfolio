@@ -1,0 +1,14 @@
+-- annual_reporting_coverage
+SELECT reporting_year,COUNT(*) AS reports,SUM(compliance_status='Compliant') AS compliant,COUNT(site_eui_wn_kbtu_sqft) AS nonmissing_eui,SUM(site_eui_wn_kbtu_sqft>0) AS positive_eui FROM report_wide GROUP BY reporting_year ORDER BY reporting_year;
+
+-- 2024_neighborhood_energy
+SELECT neighborhood,COUNT(*) AS reports,COUNT(site_energy_kbtu) AS energy_reporting_count,ROUND(SUM(site_energy_kbtu),2) AS reported_energy_kbtu FROM report_wide WHERE reporting_year=2024 GROUP BY neighborhood ORDER BY reported_energy_kbtu DESC;
+
+-- 2024_metric_completeness
+SELECT d.label,d.unit,m.value_status,COUNT(*) AS measurements FROM measurement m JOIN metric_definition d USING(metric_code) JOIN annual_report a USING(report_id) WHERE a.reporting_year=2024 GROUP BY d.metric_code,m.value_status ORDER BY d.metric_code,m.value_status;
+
+-- reported_classification_changes
+WITH h AS (SELECT building_id,reporting_year,property_use,LAG(property_use) OVER(PARTITION BY building_id ORDER BY reporting_year) AS previous_use,LAG(reporting_year) OVER(PARTITION BY building_id ORDER BY reporting_year) AS previous_year FROM report_wide) SELECT * FROM h WHERE previous_use<>property_use AND reporting_year=previous_year+1 ORDER BY building_id,reporting_year LIMIT 20;
+
+-- source_trace_example
+SELECT a.building_id,a.reporting_year,s.catalogue_id,s.retrieved_date,a.source_record,d.source_field,d.unit,m.raw_value,m.value,m.value_status FROM annual_report a JOIN source_snapshot s USING(snapshot_id) JOIN measurement m USING(report_id) JOIN metric_definition d USING(metric_code) WHERE a.building_id='1' AND a.reporting_year=2024 ORDER BY d.metric_code;

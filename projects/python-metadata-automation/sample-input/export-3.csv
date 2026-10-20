@@ -1,0 +1,4 @@
+system,table,column,data_type,owner,classification
+crm,accounts,email,string,crm@example.com,Confidential
+vendor,suppliers,name,string,,Internal
+vendor,suppliers,rating,float,vendor@example.com,Internal
