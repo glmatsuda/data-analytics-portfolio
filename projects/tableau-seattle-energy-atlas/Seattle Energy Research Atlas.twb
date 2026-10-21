@@ -1,0 +1,2363 @@
+<?xml version='1.0' encoding='utf-8'?>
+<workbook _.fcp.WorkbookFingerprinting.true...author-id="5cfd40fab5136e01012bf4990a38a2546ecd49a05d7b80e7043136cf3b18cd02" _.fcp.WorkbookFingerprinting.true...creator-author-id="5cfd40fab5136e01012bf4990a38a2546ecd49a05d7b80e7043136cf3b18cd02" _.fcp.WorkbookFingerprinting.true...creator-license-type="public" _.fcp.WorkbookFingerprinting.true...creator-machine-id="5cfd40fab5136e01012bf4990a38a2546ecd49a05d7b80e7043136cf3b18cd02" _.fcp.WorkbookFingerprinting.true...license-type="public" _.fcp.WorkbookFingerprinting.true...machine-id="5cfd40fab5136e01012bf4990a38a2546ecd49a05d7b80e7043136cf3b18cd02" original-version="18.1" source-build="2026.3.0 (20263.26.1015.1742)" source-platform="mac" version="18.1">
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name="ui.encoding.shelf.height" value="24" />
+    <preference name="ui.shelf.height" value="26" />
+  </preferences>
+  <datasources>
+    <datasource caption="Seattle Building Performance" inline="true" name="federated.0ik4g6k0g3775l1es5lck0zdefdr" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="Seattle Building Performance" name="textscan.110b7aq1qq33ve16hfbuh1ymqtvy">
+            <connection class="textscan" directory="Data" filename="Seattle Building Performance.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.110b7aq1qq33ve16hfbuh1ymqtvy" name="Seattle Building Performance.csv" table="[Seattle Building Performance#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="integer" name="Building ID" ordinal="0" />
+            <column datatype="integer" name="Reporting Year" ordinal="1" />
+            <column datatype="string" name="Property Use" ordinal="2" />
+            <column datatype="string" name="Neighborhood" ordinal="3" />
+            <column datatype="string" name="Building Type" ordinal="4" />
+            <column datatype="integer" name="Year Built" ordinal="5" />
+            <column datatype="real" name="Floor Area sqft" ordinal="6" />
+            <column datatype="real" name="WN EUI" ordinal="7" />
+            <column datatype="real" name="Site EUI" ordinal="8" />
+            <column datatype="real" name="Site Energy kBtu" ordinal="9" />
+            <column datatype="real" name="Electricity kWh" ordinal="10" />
+            <column datatype="real" name="Gas therms" ordinal="11" />
+            <column datatype="real" name="GHG tCO2e" ordinal="12" />
+            <column datatype="string" name="Report Status" ordinal="13" />
+            <column datatype="integer" name="Demolished" ordinal="14" />
+            <column datatype="integer" name="Source Row" ordinal="15" />
+            <column datatype="integer" name="Eligible EUI" ordinal="16" />
+            <column datatype="integer" name="Matched Cohort" ordinal="17" />
+            <column datatype="integer" name="Peer Count" ordinal="18" />
+            <column datatype="integer" name="Peer Benchmark Available" ordinal="19" />
+            <column datatype="real" name="Peer Median WN EUI" ordinal="20" />
+            <column datatype="real" name="Peer P25 WN EUI" ordinal="21" />
+            <column datatype="real" name="Peer P75 WN EUI" ordinal="22" />
+            <column datatype="real" name="Peer P90 WN EUI" ordinal="23" />
+            <column datatype="real" name="Relative to Peer" ordinal="24" />
+            <column datatype="real" name="Peer Percentile" ordinal="25" />
+            <column datatype="integer" name="Eligible GHG" ordinal="26" />
+            <column datatype="string" name="Eligibility Reason" ordinal="27" />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class="capability">
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype="string" name="character-set">"UTF-8"</attribute>
+              <attribute datatype="string" name="collation">"en_US"</attribute>
+              <attribute datatype="string" name="field-delimiter">","</attribute>
+              <attribute datatype="string" name="header-row">"true"</attribute>
+              <attribute datatype="string" name="locale">"en_US"</attribute>
+              <attribute datatype="string" name="single-char">""</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Building ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Building ID]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Building ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Reporting Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reporting Year]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Reporting Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Property Use</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Property Use]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Property Use</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Neighborhood</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Neighborhood]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Neighborhood</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Building Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Building Type]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Building Type</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Year Built</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year Built]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Year Built</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Floor Area sqft</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Floor Area sqft]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Floor Area sqft</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>WN EUI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WN EUI]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>WN EUI</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Site EUI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Site EUI]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Site EUI</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Site Energy kBtu</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Site Energy kBtu]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Site Energy kBtu</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Electricity kWh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electricity kWh]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Electricity kWh</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Gas therms</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gas therms]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Gas therms</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>GHG tCO2e</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GHG tCO2e]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>GHG tCO2e</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Report Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Report Status]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Report Status</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Demolished</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Demolished]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Demolished</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Source Row</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Source Row]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Source Row</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Eligible EUI</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Eligible EUI]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Eligible EUI</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Matched Cohort</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Matched Cohort]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Matched Cohort</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Peer Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Peer Count]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Peer Count</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Peer Benchmark Available</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Peer Benchmark Available]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Peer Benchmark Available</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Peer Median WN EUI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Peer Median WN EUI]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Peer Median WN EUI</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Peer P25 WN EUI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Peer P25 WN EUI]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Peer P25 WN EUI</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Peer P75 WN EUI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Peer P75 WN EUI]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Peer P75 WN EUI</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Peer P90 WN EUI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Peer P90 WN EUI]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Peer P90 WN EUI</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Relative to Peer</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Relative to Peer]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Relative to Peer</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Peer Percentile</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Peer Percentile]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Peer Percentile</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Eligible GHG</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Eligible GHG]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Eligible GHG</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Eligibility Reason</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Eligibility Reason]</local-name>
+            <parent-name>[Seattle Building Performance.csv]</parent-name>
+            <remote-alias>Eligibility Reason</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+            <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled="yes" />
+      <column name="[Building ID]" datatype="integer" role="dimension" type="nominal" />
+      <column name="[Reporting Year]" datatype="integer" role="dimension" type="quantitative" />
+      <column name="[Property Use]" datatype="string" role="dimension" type="nominal">
+        <aliases>
+          <alias key="&quot;Multifamily LR (1-4)&quot;" value="Multifamily: low-rise" />
+          <alias key="&quot;Multifamily MR (5-9)&quot;" value="Multifamily: mid-rise" />
+          <alias key="&quot;Multifamily HR (10+)&quot;" value="Multifamily: high-rise" />
+          <alias key="&quot;K-12 School&quot;" value="K–12 school" />
+          <alias key="&quot;Non-Refrigerated Warehouse&quot;" value="Warehouse" />
+          <alias key="&quot;Residence Hall/Dormitory&quot;" value="Residence hall" />
+          <alias key="&quot;Senior Living Community&quot;" value="Senior living" />
+        </aliases>
+      </column>
+      <column name="[Neighborhood]" datatype="string" role="dimension" type="nominal">
+        <aliases>
+          <alias key="&quot;MAGNOLIA / QUEEN ANNE&quot;" value="Magnolia / QA" />
+          <alias key="&quot;GREATER DUWAMISH&quot;" value="Duwamish" />
+          <alias key="&quot;DELRIDGE NEIGHBORHOODS&quot;" value="Delridge" />
+          <alias key="&quot;LAKE UNION&quot;" value="Lake Union" />
+          <alias key="&quot;NORTHEAST&quot;" value="NE" />
+          <alias key="&quot;NORTHWEST&quot;" value="NW" />
+          <alias key="&quot;SOUTHEAST&quot;" value="SE" />
+          <alias key="&quot;SOUTHWEST&quot;" value="SW" />
+          <alias key="&quot;DOWNTOWN&quot;" value="Downtown" />
+          <alias key="&quot;BALLARD&quot;" value="Ballard" />
+          <alias key="&quot;CENTRAL&quot;" value="Central" />
+          <alias key="&quot;EAST&quot;" value="East" />
+          <alias key="&quot;NORTH&quot;" value="North" />
+        </aliases>
+      </column>
+      <column name="[Building Type]" datatype="string" role="dimension" type="nominal" />
+      <column name="[Year Built]" datatype="integer" role="dimension" type="quantitative" />
+      <column name="[Floor Area sqft]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Site EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Site Energy kBtu]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Electricity kWh]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Gas therms]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[GHG tCO2e]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Report Status]" datatype="string" role="dimension" type="nominal" />
+      <column name="[Demolished]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Source Row]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Eligible EUI]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+      <column name="[Matched Cohort]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Peer Count]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Peer Benchmark Available]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Peer Median WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Peer P25 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Peer P75 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Peer P90 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Relative to Peer]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Peer Percentile]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+      <column name="[Eligible GHG]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+      <column name="[Eligibility Reason]" datatype="string" role="dimension" type="nominal" />
+      <column name="[Log10 floor area]" datatype="real" role="measure" type="quantitative">
+        <calculation class="tableau" formula="IF [Floor Area sqft] &gt; 0 THEN LOG([Floor Area sqft]) END" />
+      </column>
+      <column name="[Log10 peer ratio]" datatype="real" role="measure" type="quantitative">
+        <calculation class="tableau" formula="IF [Relative to Peer] &gt; 0 THEN LOG([Relative to Peer]) END" />
+      </column>
+      <column name="[Eligible WN EUI]" datatype="real" role="measure" type="quantitative">
+        <calculation class="tableau" formula="IF [Eligible EUI] = 1 THEN [WN EUI] END" />
+      </column>
+      <column name="[Continuous-cohort WN EUI]" datatype="real" role="measure" type="quantitative">
+        <calculation class="tableau" formula="IF [Matched Cohort] = 1 THEN [WN EUI] END" />
+      </column>
+      <column name="[Cohort baseline EUI]" datatype="real" role="measure" type="quantitative">
+        <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2019 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+      </column>
+      <column name="[Cohort comparison EUI]" datatype="real" role="measure" type="quantitative">
+        <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2024 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+      </column>
+      <column name="[Cohort building change]" datatype="real" role="measure" type="quantitative" default-format="p0.0%">
+        <calculation class="tableau" formula="[Cohort comparison EUI] / [Cohort baseline EUI] - 1" />
+      </column>
+      <column name="[Cohort use N]" datatype="real" role="measure" type="quantitative">
+        <calculation class="tableau" formula="{ FIXED [Property Use] : COUNTD(IF [Matched Cohort] = 1 THEN [Building ID] END) }" />
+      </column>
+      <extract count="-1" enabled="true" object-id="" units="records" user-specific="false">
+        <connection access_mode="readonly" author-locale="en_US" class="hyper" dbname="Data/Seattle Building Performance.hyper" default-settings="hyper" schema="Extract" sslmode="" tablename="Extract" update-time="10/20/2026 11:26:53 PM" username="tableau_internal_user">
+          <relation name="Extract" table="[Extract].[Extract]" type="table" />
+          <metadata-records>
+            <metadata-record class="column">
+              <remote-name>Building ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Building ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Building ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6557</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Reporting Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Reporting Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Reporting Year</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Property Use</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Property Use]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Property Use</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>102</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag="0" name="LEN_RUS" />
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Neighborhood</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Neighborhood]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Neighborhood</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag="0" name="LEN_RUS" />
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Building Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Building Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Building Type</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag="0" name="LEN_RUS" />
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Year Built</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year Built]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year Built</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>134</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Floor Area sqft</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Floor Area sqft]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Floor Area sqft</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6223</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>WN EUI</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[WN EUI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WN EUI</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2570</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Site EUI</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Site EUI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Site EUI</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2711</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Site Energy kBtu</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Site Energy kBtu]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Site Energy kBtu</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>35665</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Electricity kWh</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Electricity kWh]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Electricity kWh</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>35871</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Gas therms</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Gas therms]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gas therms</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14175</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>GHG tCO2e</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[GHG tCO2e]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GHG tCO2e</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4194</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Report Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Report Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Report Status</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag="0" name="LEN_RUS" />
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Demolished</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Demolished]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Demolished</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Source Row</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Source Row]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Source Row</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38309</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Eligible EUI</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Eligible EUI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Eligible EUI</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Matched Cohort</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Matched Cohort]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Matched Cohort</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Peer Count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Peer Count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Peer Count</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>227</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Peer Benchmark Available</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Peer Benchmark Available]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Peer Benchmark Available</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Peer Median WN EUI</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Peer Median WN EUI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Peer Median WN EUI</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>402</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Peer P25 WN EUI</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Peer P25 WN EUI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Peer P25 WN EUI</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>404</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Peer P75 WN EUI</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Peer P75 WN EUI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Peer P75 WN EUI</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>422</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Peer P90 WN EUI</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Peer P90 WN EUI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Peer P90 WN EUI</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>429</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Relative to Peer</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Relative to Peer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Relative to Peer</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13835</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Peer Percentile</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Peer Percentile]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Peer Percentile</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10382</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Eligible GHG</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Eligible GHG]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Eligible GHG</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+            <metadata-record class="column">
+              <remote-name>Eligibility Reason</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Eligibility Reason]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Eligibility Reason</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Seattle Building Performance.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag="0" name="LEN_RUS" />
+              <object-id>[Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering="alphabetic" measure-ordering="alphabetic" show-structure="true" />
+      <semantic-values>
+        <semantic-value key="[Country].[Name]" value="&quot;United States&quot;" />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption="Seattle Building Performance.csv" id="Seattle Building Performance.csv_2F7FC5DA7A1E4D54B8CDE8967EA80C9E">
+            <properties context="">
+              <relation connection="textscan.110b7aq1qq33ve16hfbuh1ymqtvy" name="Seattle Building Performance.csv" table="[Seattle Building Performance#csv]" type="table">
+                <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+                  <column datatype="integer" name="Building ID" ordinal="0" />
+                  <column datatype="integer" name="Reporting Year" ordinal="1" />
+                  <column datatype="string" name="Property Use" ordinal="2" />
+                  <column datatype="string" name="Neighborhood" ordinal="3" />
+                  <column datatype="string" name="Building Type" ordinal="4" />
+                  <column datatype="integer" name="Year Built" ordinal="5" />
+                  <column datatype="real" name="Floor Area sqft" ordinal="6" />
+                  <column datatype="real" name="WN EUI" ordinal="7" />
+                  <column datatype="real" name="Site EUI" ordinal="8" />
+                  <column datatype="real" name="Site Energy kBtu" ordinal="9" />
+                  <column datatype="real" name="Electricity kWh" ordinal="10" />
+                  <column datatype="real" name="Gas therms" ordinal="11" />
+                  <column datatype="real" name="GHG tCO2e" ordinal="12" />
+                  <column datatype="string" name="Report Status" ordinal="13" />
+                  <column datatype="integer" name="Demolished" ordinal="14" />
+                  <column datatype="integer" name="Source Row" ordinal="15" />
+                  <column datatype="integer" name="Eligible EUI" ordinal="16" />
+                  <column datatype="integer" name="Matched Cohort" ordinal="17" />
+                  <column datatype="integer" name="Peer Count" ordinal="18" />
+                  <column datatype="integer" name="Peer Benchmark Available" ordinal="19" />
+                  <column datatype="real" name="Peer Median WN EUI" ordinal="20" />
+                  <column datatype="real" name="Peer P25 WN EUI" ordinal="21" />
+                  <column datatype="real" name="Peer P75 WN EUI" ordinal="22" />
+                  <column datatype="real" name="Peer P90 WN EUI" ordinal="23" />
+                  <column datatype="real" name="Relative to Peer" ordinal="24" />
+                  <column datatype="real" name="Peer Percentile" ordinal="25" />
+                  <column datatype="integer" name="Eligible GHG" ordinal="26" />
+                  <column datatype="string" name="Eligibility Reason" ordinal="27" />
+                </columns>
+              </relation>
+            </properties>
+            <properties context="extract">
+              <relation name="Extract" table="[Extract].[Extract]" type="table" />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption="Peer use selector → linked views" name="[Action_5859e270424745f39a6b38eeda40e85a]">
+      <activation auto-clear="true" type="on-select" />
+      <source dashboard="01 | Peer performance atlas" type="sheet" worksheet="Peer use selector" />
+      <command command="tsc:tsl-filter">
+        <param name="special-fields" value="all" />
+        <param name="target" value="01 | Peer performance atlas" />
+      </command>
+    </action>
+    <action caption="Peer neighborhood matrix → linked views" name="[Action_8b6b02b1fc2a4b22937353647c97751c]">
+      <activation auto-clear="true" type="on-select" />
+      <source dashboard="01 | Peer performance atlas" type="sheet" worksheet="Peer neighborhood matrix" />
+      <command command="tsc:tsl-filter">
+        <param name="special-fields" value="all" />
+        <param name="target" value="01 | Peer performance atlas" />
+      </command>
+    </action>
+    <action caption="Cohort use selector → linked views" name="[Action_cf8bb9aac0a44616b00bf0bc9b7cbf30]">
+      <activation auto-clear="true" type="on-select" />
+      <source dashboard="02 | Cohort and reporting" type="sheet" worksheet="Cohort use selector" />
+      <command command="tsc:tsl-filter">
+        <param name="special-fields" value="all" />
+        <param name="target" value="02 | Cohort and reporting" />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name="Peer use selector">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname="Arial" fontsize="14" bold="true" fontcolor="#173c51">2024 peer medians | Select a property type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Seattle Building Performance" name="federated.0ik4g6k0g3775l1es5lck0zdefdr" />
+          </datasources>
+          <datasource-dependencies datasource="federated.0ik4g6k0g3775l1es5lck0zdefdr">
+            <column name="[Building ID]" datatype="integer" role="dimension" type="nominal" />
+            <column name="[Reporting Year]" datatype="integer" role="dimension" type="quantitative" />
+            <column name="[Property Use]" datatype="string" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;Multifamily LR (1-4)&quot;" value="Multifamily: low-rise" />
+                <alias key="&quot;Multifamily MR (5-9)&quot;" value="Multifamily: mid-rise" />
+                <alias key="&quot;Multifamily HR (10+)&quot;" value="Multifamily: high-rise" />
+                <alias key="&quot;K-12 School&quot;" value="K–12 school" />
+                <alias key="&quot;Non-Refrigerated Warehouse&quot;" value="Warehouse" />
+                <alias key="&quot;Residence Hall/Dormitory&quot;" value="Residence hall" />
+                <alias key="&quot;Senior Living Community&quot;" value="Senior living" />
+              </aliases>
+            </column>
+            <column name="[Neighborhood]" datatype="string" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;MAGNOLIA / QUEEN ANNE&quot;" value="Magnolia / QA" />
+                <alias key="&quot;GREATER DUWAMISH&quot;" value="Duwamish" />
+                <alias key="&quot;DELRIDGE NEIGHBORHOODS&quot;" value="Delridge" />
+                <alias key="&quot;LAKE UNION&quot;" value="Lake Union" />
+                <alias key="&quot;NORTHEAST&quot;" value="NE" />
+                <alias key="&quot;NORTHWEST&quot;" value="NW" />
+                <alias key="&quot;SOUTHEAST&quot;" value="SE" />
+                <alias key="&quot;SOUTHWEST&quot;" value="SW" />
+                <alias key="&quot;DOWNTOWN&quot;" value="Downtown" />
+                <alias key="&quot;BALLARD&quot;" value="Ballard" />
+                <alias key="&quot;CENTRAL&quot;" value="Central" />
+                <alias key="&quot;EAST&quot;" value="East" />
+                <alias key="&quot;NORTH&quot;" value="North" />
+              </aliases>
+            </column>
+            <column name="[Building Type]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Year Built]" datatype="integer" role="dimension" type="quantitative" />
+            <column name="[Floor Area sqft]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Site EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Site Energy kBtu]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Electricity kWh]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Gas therms]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[GHG tCO2e]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Report Status]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Demolished]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Source Row]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Eligible EUI]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+            <column name="[Matched Cohort]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Count]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Benchmark Available]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Median WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P25 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P75 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P90 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Relative to Peer]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Percentile]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Eligible GHG]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+            <column name="[Eligibility Reason]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Log10 floor area]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Floor Area sqft] &gt; 0 THEN LOG([Floor Area sqft]) END" />
+            </column>
+            <column name="[Log10 peer ratio]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Relative to Peer] &gt; 0 THEN LOG([Relative to Peer]) END" />
+            </column>
+            <column name="[Eligible WN EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Eligible EUI] = 1 THEN [WN EUI] END" />
+            </column>
+            <column name="[Continuous-cohort WN EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Matched Cohort] = 1 THEN [WN EUI] END" />
+            </column>
+            <column name="[Cohort baseline EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2019 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+            </column>
+            <column name="[Cohort comparison EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2024 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+            </column>
+            <column name="[Cohort building change]" datatype="real" role="measure" type="quantitative" default-format="p0.0%">
+              <calculation class="tableau" formula="[Cohort comparison EUI] / [Cohort baseline EUI] - 1" />
+            </column>
+            <column name="[Cohort use N]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Property Use] : COUNTD(IF [Matched Cohort] = 1 THEN [Building ID] END) }" />
+            </column>
+            <column-instance column="[Building ID]" derivation="Count" name="[cnt:Building ID:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[WN EUI]" derivation="Median" name="[median:WN EUI:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Eligible EUI]" derivation="None" name="[none:Eligible EUI:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Peer Benchmark Available]" derivation="None" name="[none:Peer Benchmark Available:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Property Use]" derivation="None" name="[none:Property Use:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Reporting Year]" derivation="None" name="[none:Reporting Year:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]" included-values="in-range">
+            <min>2024</min>
+            <max>2024</max>
+          </filter>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Eligible EUI:qk]" included-values="in-range">
+            <min>1</min>
+            <max>1</max>
+          </filter>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Peer Benchmark Available:qk]" included-values="in-range">
+            <min>1</min>
+            <max>1</max>
+          </filter>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="title" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:WN EUI:qk]" scope="cols" value="WN EUI" />
+            <format attr="auto-subtitle" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:WN EUI:qk]" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="header">
+            <format attr="font-size" value="10" />
+            <format attr="width" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Property Use:nk]" value="180" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+            <encodings>
+              <text column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:WN EUI:qk]" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Arial" fontcolor="#586b78">Property use: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Property Use:nk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Median WN EUI (kBtu/ft²): </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:WN EUI:qk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Eligible buildings: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[cnt:Building ID:qk]&gt;
+</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-color" value="#247f83" />
+                <format attr="mark-transparency" value="255" />
+                <format attr="size" value="1" />
+                <format attr="mark-labels-show" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Property Use:nk]</rows>
+        <cols>[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:WN EUI:qk]</cols>
+      </table>
+      <simple-id uuid="{C5E67A67-4D60-4730-B82F-E8EAF5FDC710}" />
+    </worksheet>
+    <worksheet name="Peer scatter">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname="Arial" fontsize="14" bold="true" fontcolor="#173c51">Building-level outliers | Both axes are log10 transformed</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Seattle Building Performance" name="federated.0ik4g6k0g3775l1es5lck0zdefdr" />
+          </datasources>
+          <datasource-dependencies datasource="federated.0ik4g6k0g3775l1es5lck0zdefdr">
+            <column name="[Building ID]" datatype="integer" role="dimension" type="nominal" />
+            <column name="[Reporting Year]" datatype="integer" role="dimension" type="quantitative" />
+            <column name="[Property Use]" datatype="string" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;Multifamily LR (1-4)&quot;" value="Multifamily: low-rise" />
+                <alias key="&quot;Multifamily MR (5-9)&quot;" value="Multifamily: mid-rise" />
+                <alias key="&quot;Multifamily HR (10+)&quot;" value="Multifamily: high-rise" />
+                <alias key="&quot;K-12 School&quot;" value="K–12 school" />
+                <alias key="&quot;Non-Refrigerated Warehouse&quot;" value="Warehouse" />
+                <alias key="&quot;Residence Hall/Dormitory&quot;" value="Residence hall" />
+                <alias key="&quot;Senior Living Community&quot;" value="Senior living" />
+              </aliases>
+            </column>
+            <column name="[Neighborhood]" datatype="string" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;MAGNOLIA / QUEEN ANNE&quot;" value="Magnolia / QA" />
+                <alias key="&quot;GREATER DUWAMISH&quot;" value="Duwamish" />
+                <alias key="&quot;DELRIDGE NEIGHBORHOODS&quot;" value="Delridge" />
+                <alias key="&quot;LAKE UNION&quot;" value="Lake Union" />
+                <alias key="&quot;NORTHEAST&quot;" value="NE" />
+                <alias key="&quot;NORTHWEST&quot;" value="NW" />
+                <alias key="&quot;SOUTHEAST&quot;" value="SE" />
+                <alias key="&quot;SOUTHWEST&quot;" value="SW" />
+                <alias key="&quot;DOWNTOWN&quot;" value="Downtown" />
+                <alias key="&quot;BALLARD&quot;" value="Ballard" />
+                <alias key="&quot;CENTRAL&quot;" value="Central" />
+                <alias key="&quot;EAST&quot;" value="East" />
+                <alias key="&quot;NORTH&quot;" value="North" />
+              </aliases>
+            </column>
+            <column name="[Building Type]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Year Built]" datatype="integer" role="dimension" type="quantitative" />
+            <column name="[Floor Area sqft]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Site EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Site Energy kBtu]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Electricity kWh]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Gas therms]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[GHG tCO2e]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Report Status]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Demolished]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Source Row]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Eligible EUI]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+            <column name="[Matched Cohort]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Count]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Benchmark Available]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Median WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P25 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P75 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P90 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Relative to Peer]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Percentile]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Eligible GHG]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+            <column name="[Eligibility Reason]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Log10 floor area]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Floor Area sqft] &gt; 0 THEN LOG([Floor Area sqft]) END" />
+            </column>
+            <column name="[Log10 peer ratio]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Relative to Peer] &gt; 0 THEN LOG([Relative to Peer]) END" />
+            </column>
+            <column name="[Eligible WN EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Eligible EUI] = 1 THEN [WN EUI] END" />
+            </column>
+            <column name="[Continuous-cohort WN EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Matched Cohort] = 1 THEN [WN EUI] END" />
+            </column>
+            <column name="[Cohort baseline EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2019 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+            </column>
+            <column name="[Cohort comparison EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2024 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+            </column>
+            <column name="[Cohort building change]" datatype="real" role="measure" type="quantitative" default-format="p0.0%">
+              <calculation class="tableau" formula="[Cohort comparison EUI] / [Cohort baseline EUI] - 1" />
+            </column>
+            <column name="[Cohort use N]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Property Use] : COUNTD(IF [Matched Cohort] = 1 THEN [Building ID] END) }" />
+            </column>
+            <column-instance column="[Floor Area sqft]" derivation="Avg" name="[avg:Floor Area sqft:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Log10 floor area]" derivation="Avg" name="[avg:Log10 floor area:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Log10 peer ratio]" derivation="Avg" name="[avg:Log10 peer ratio:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Relative to Peer]" derivation="Avg" name="[avg:Relative to Peer:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[WN EUI]" derivation="Avg" name="[avg:WN EUI:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Peer Count]" derivation="Min" name="[min:Peer Count:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Building ID]" derivation="None" name="[none:Building ID:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Eligible EUI]" derivation="None" name="[none:Eligible EUI:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Floor Area sqft]" derivation="None" name="[none:Floor Area sqft:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Neighborhood]" derivation="None" name="[none:Neighborhood:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Peer Benchmark Available]" derivation="None" name="[none:Peer Benchmark Available:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Property Use]" derivation="None" name="[none:Property Use:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Reporting Year]" derivation="None" name="[none:Reporting Year:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]" included-values="in-range">
+            <min>2024</min>
+            <max>2024</max>
+          </filter>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Eligible EUI:qk]" included-values="in-range">
+            <min>1</min>
+            <max>1</max>
+          </filter>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Peer Benchmark Available:qk]" included-values="in-range">
+            <min>1</min>
+            <max>1</max>
+          </filter>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Floor Area sqft:qk]" included-values="in-range">
+            <min>1</min>
+          </filter>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="title" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[avg:Log10 peer ratio:qk]" scope="rows" value="Log10 peer ratio" />
+            <format attr="auto-subtitle" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[avg:Log10 peer ratio:qk]" scope="rows" value="false" />
+            <format attr="title" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[avg:Log10 floor area:qk]" scope="cols" value="Log10 floor area" />
+            <format attr="auto-subtitle" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[avg:Log10 floor area:qk]" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="header">
+            <format attr="font-size" value="10" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Circle" />
+            <encodings>
+              <lod column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Building ID:nk]" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Arial" fontcolor="#586b78">Building ID: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Building ID:nk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Property use: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Property Use:nk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Neighborhood: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Neighborhood:nk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Floor area (ft²): </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[avg:Floor Area sqft:qk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">WN EUI (kBtu/ft²): </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[avg:WN EUI:qk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Ratio to peer median: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[avg:Relative to Peer:qk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Peer population N: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[min:Peer Count:qk]&gt;
+</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-color" value="#247f83" />
+                <format attr="mark-transparency" value="135" />
+                <format attr="size" value="0.45" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ik4g6k0g3775l1es5lck0zdefdr].[avg:Log10 peer ratio:qk]</rows>
+        <cols>[federated.0ik4g6k0g3775l1es5lck0zdefdr].[avg:Log10 floor area:qk]</cols>
+      </table>
+      <simple-id uuid="{4607BD03-A198-4DB2-9E18-684FCBE5376E}" />
+    </worksheet>
+    <worksheet name="Peer neighborhood matrix">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname="Arial" fontsize="14" bold="true" fontcolor="#173c51">Neighborhood × property use | Median ratio to same-use peers</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Seattle Building Performance" name="federated.0ik4g6k0g3775l1es5lck0zdefdr" />
+          </datasources>
+          <datasource-dependencies datasource="federated.0ik4g6k0g3775l1es5lck0zdefdr">
+            <column name="[Building ID]" datatype="integer" role="dimension" type="nominal" />
+            <column name="[Reporting Year]" datatype="integer" role="dimension" type="quantitative" />
+            <column name="[Property Use]" datatype="string" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;Multifamily LR (1-4)&quot;" value="Multifamily: low-rise" />
+                <alias key="&quot;Multifamily MR (5-9)&quot;" value="Multifamily: mid-rise" />
+                <alias key="&quot;Multifamily HR (10+)&quot;" value="Multifamily: high-rise" />
+                <alias key="&quot;K-12 School&quot;" value="K–12 school" />
+                <alias key="&quot;Non-Refrigerated Warehouse&quot;" value="Warehouse" />
+                <alias key="&quot;Residence Hall/Dormitory&quot;" value="Residence hall" />
+                <alias key="&quot;Senior Living Community&quot;" value="Senior living" />
+              </aliases>
+            </column>
+            <column name="[Neighborhood]" datatype="string" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;MAGNOLIA / QUEEN ANNE&quot;" value="Magnolia / QA" />
+                <alias key="&quot;GREATER DUWAMISH&quot;" value="Duwamish" />
+                <alias key="&quot;DELRIDGE NEIGHBORHOODS&quot;" value="Delridge" />
+                <alias key="&quot;LAKE UNION&quot;" value="Lake Union" />
+                <alias key="&quot;NORTHEAST&quot;" value="NE" />
+                <alias key="&quot;NORTHWEST&quot;" value="NW" />
+                <alias key="&quot;SOUTHEAST&quot;" value="SE" />
+                <alias key="&quot;SOUTHWEST&quot;" value="SW" />
+                <alias key="&quot;DOWNTOWN&quot;" value="Downtown" />
+                <alias key="&quot;BALLARD&quot;" value="Ballard" />
+                <alias key="&quot;CENTRAL&quot;" value="Central" />
+                <alias key="&quot;EAST&quot;" value="East" />
+                <alias key="&quot;NORTH&quot;" value="North" />
+              </aliases>
+            </column>
+            <column name="[Building Type]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Year Built]" datatype="integer" role="dimension" type="quantitative" />
+            <column name="[Floor Area sqft]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Site EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Site Energy kBtu]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Electricity kWh]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Gas therms]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[GHG tCO2e]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Report Status]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Demolished]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Source Row]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Eligible EUI]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+            <column name="[Matched Cohort]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Count]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Benchmark Available]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Median WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P25 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P75 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P90 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Relative to Peer]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Percentile]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Eligible GHG]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+            <column name="[Eligibility Reason]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Log10 floor area]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Floor Area sqft] &gt; 0 THEN LOG([Floor Area sqft]) END" />
+            </column>
+            <column name="[Log10 peer ratio]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Relative to Peer] &gt; 0 THEN LOG([Relative to Peer]) END" />
+            </column>
+            <column name="[Eligible WN EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Eligible EUI] = 1 THEN [WN EUI] END" />
+            </column>
+            <column name="[Continuous-cohort WN EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Matched Cohort] = 1 THEN [WN EUI] END" />
+            </column>
+            <column name="[Cohort baseline EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2019 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+            </column>
+            <column name="[Cohort comparison EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2024 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+            </column>
+            <column name="[Cohort building change]" datatype="real" role="measure" type="quantitative" default-format="p0.0%">
+              <calculation class="tableau" formula="[Cohort comparison EUI] / [Cohort baseline EUI] - 1" />
+            </column>
+            <column name="[Cohort use N]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Property Use] : COUNTD(IF [Matched Cohort] = 1 THEN [Building ID] END) }" />
+            </column>
+            <column-instance column="[Building ID]" derivation="Count" name="[cnt:Building ID:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Relative to Peer]" derivation="Median" name="[median:Relative to Peer:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Peer Count]" derivation="Min" name="[min:Peer Count:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Eligible EUI]" derivation="None" name="[none:Eligible EUI:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Neighborhood]" derivation="None" name="[none:Neighborhood:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Peer Benchmark Available]" derivation="None" name="[none:Peer Benchmark Available:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Property Use]" derivation="None" name="[none:Property Use:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Reporting Year]" derivation="None" name="[none:Reporting Year:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]" included-values="in-range">
+            <min>2024</min>
+            <max>2024</max>
+          </filter>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Eligible EUI:qk]" included-values="in-range">
+            <min>1</min>
+            <max>1</max>
+          </filter>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Peer Benchmark Available:qk]" included-values="in-range">
+            <min>1</min>
+            <max>1</max>
+          </filter>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis" />
+          <style-rule element="header">
+            <format attr="font-size" value="10" />
+            <format attr="width" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Property Use:nk]" value="180" />
+          </style-rule>
+          <style-rule element="mark">
+            <encoding attr="color" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Relative to Peer:qk]" min="0.5" max="1.5" center="1" symmetric="false" type="custom-interpolated">
+              <color-palette custom="true" name="" type="ordered-diverging">
+                <color>#65b5b6</color>
+                <color>#f7f7f5</color>
+                <color>#e5a17e</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Square" />
+            <encodings>
+              <color column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Relative to Peer:qk]" />
+              <text column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Relative to Peer:qk]" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Arial" fontcolor="#586b78">Property use: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Property Use:nk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Neighborhood: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Neighborhood:nk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Median peer ratio: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Relative to Peer:qk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Local buildings in cell: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[cnt:Building ID:qk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Full peer population N: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[min:Peer Count:qk]&gt;
+</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-color" value="#247f83" />
+                <format attr="mark-transparency" value="255" />
+                <format attr="size" value="1" />
+                <format attr="mark-labels-show" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Property Use:nk]</rows>
+        <cols>[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Neighborhood:nk]</cols>
+      </table>
+      <simple-id uuid="{1D759784-97D2-4709-934E-8C54D6E08044}" />
+    </worksheet>
+    <worksheet name="Cohort trend">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname="Arial" fontsize="14" bold="true" fontcolor="#173c51">Median WN EUI | Orange: reported population · Blue: continuous cohort</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Seattle Building Performance" name="federated.0ik4g6k0g3775l1es5lck0zdefdr" />
+          </datasources>
+          <datasource-dependencies datasource="federated.0ik4g6k0g3775l1es5lck0zdefdr">
+            <column name="[Building ID]" datatype="integer" role="dimension" type="nominal" />
+            <column name="[Reporting Year]" datatype="integer" role="dimension" type="quantitative" />
+            <column name="[Property Use]" datatype="string" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;Multifamily LR (1-4)&quot;" value="Multifamily: low-rise" />
+                <alias key="&quot;Multifamily MR (5-9)&quot;" value="Multifamily: mid-rise" />
+                <alias key="&quot;Multifamily HR (10+)&quot;" value="Multifamily: high-rise" />
+                <alias key="&quot;K-12 School&quot;" value="K–12 school" />
+                <alias key="&quot;Non-Refrigerated Warehouse&quot;" value="Warehouse" />
+                <alias key="&quot;Residence Hall/Dormitory&quot;" value="Residence hall" />
+                <alias key="&quot;Senior Living Community&quot;" value="Senior living" />
+              </aliases>
+            </column>
+            <column name="[Neighborhood]" datatype="string" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;MAGNOLIA / QUEEN ANNE&quot;" value="Magnolia / QA" />
+                <alias key="&quot;GREATER DUWAMISH&quot;" value="Duwamish" />
+                <alias key="&quot;DELRIDGE NEIGHBORHOODS&quot;" value="Delridge" />
+                <alias key="&quot;LAKE UNION&quot;" value="Lake Union" />
+                <alias key="&quot;NORTHEAST&quot;" value="NE" />
+                <alias key="&quot;NORTHWEST&quot;" value="NW" />
+                <alias key="&quot;SOUTHEAST&quot;" value="SE" />
+                <alias key="&quot;SOUTHWEST&quot;" value="SW" />
+                <alias key="&quot;DOWNTOWN&quot;" value="Downtown" />
+                <alias key="&quot;BALLARD&quot;" value="Ballard" />
+                <alias key="&quot;CENTRAL&quot;" value="Central" />
+                <alias key="&quot;EAST&quot;" value="East" />
+                <alias key="&quot;NORTH&quot;" value="North" />
+              </aliases>
+            </column>
+            <column name="[Building Type]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Year Built]" datatype="integer" role="dimension" type="quantitative" />
+            <column name="[Floor Area sqft]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Site EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Site Energy kBtu]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Electricity kWh]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Gas therms]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[GHG tCO2e]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Report Status]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Demolished]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Source Row]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Eligible EUI]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+            <column name="[Matched Cohort]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Count]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Benchmark Available]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Median WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P25 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P75 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P90 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Relative to Peer]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Percentile]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Eligible GHG]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+            <column name="[Eligibility Reason]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Log10 floor area]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Floor Area sqft] &gt; 0 THEN LOG([Floor Area sqft]) END" />
+            </column>
+            <column name="[Log10 peer ratio]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Relative to Peer] &gt; 0 THEN LOG([Relative to Peer]) END" />
+            </column>
+            <column name="[Eligible WN EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Eligible EUI] = 1 THEN [WN EUI] END" />
+            </column>
+            <column name="[Continuous-cohort WN EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Matched Cohort] = 1 THEN [WN EUI] END" />
+            </column>
+            <column name="[Cohort baseline EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2019 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+            </column>
+            <column name="[Cohort comparison EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2024 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+            </column>
+            <column name="[Cohort building change]" datatype="real" role="measure" type="quantitative" default-format="p0.0%">
+              <calculation class="tableau" formula="[Cohort comparison EUI] / [Cohort baseline EUI] - 1" />
+            </column>
+            <column name="[Cohort use N]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Property Use] : COUNTD(IF [Matched Cohort] = 1 THEN [Building ID] END) }" />
+            </column>
+            <column-instance column="[Continuous-cohort WN EUI]" derivation="Median" name="[median:Continuous-cohort WN EUI:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Eligible WN EUI]" derivation="Median" name="[median:Eligible WN EUI:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Reporting Year]" derivation="None" name="[none:Reporting Year:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]" included-values="in-range">
+            <min>2019</min>
+            <max>2024</max>
+          </filter>
+          <filter class="categorical" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[:Measure Names]">
+            <groupfilter function="union">
+              <groupfilter function="member" level="[:Measure Names]" member="&quot;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Eligible WN EUI:qk]&quot;" />
+              <groupfilter function="member" level="[:Measure Names]" member="&quot;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Continuous-cohort WN EUI:qk]&quot;" />
+            </groupfilter>
+          </filter>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="title" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[Multiple Values]" scope="rows" value="Median WN EUI (kBtu/ft²)" />
+            <format attr="auto-subtitle" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[Multiple Values]" scope="rows" value="false" />
+            <format attr="title" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]" scope="cols" value="Reporting Year" />
+            <format attr="auto-subtitle" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="header">
+            <format attr="font-size" value="10" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Line" />
+            <encodings>
+              <color column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[:Measure Names]" />
+              <lod column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Eligible WN EUI:qk]" separate-domains="true" />
+              <lod column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Continuous-cohort WN EUI:qk]" separate-domains="true" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Arial" fontcolor="#586b78">Year: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">All eligible reported buildings: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Eligible WN EUI:qk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Continuous cohort: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Continuous-cohort WN EUI:qk]&gt;
+</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-color" value="#247f83" />
+                <format attr="mark-transparency" value="255" />
+                <format attr="size" value="1" />
+                <format attr="mark-markers-mode" value="all" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ik4g6k0g3775l1es5lck0zdefdr].[Multiple Values]</rows>
+        <cols>[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]</cols>
+      </table>
+      <simple-id uuid="{7A4D20DA-4B4D-45BE-BD8F-E4F641DED05A}" />
+    </worksheet>
+    <worksheet name="Cohort use selector">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname="Arial" fontsize="14" bold="true" fontcolor="#173c51">Same-building change by use | Select to investigate</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Seattle Building Performance" name="federated.0ik4g6k0g3775l1es5lck0zdefdr" />
+          </datasources>
+          <datasource-dependencies datasource="federated.0ik4g6k0g3775l1es5lck0zdefdr">
+            <column name="[Building ID]" datatype="integer" role="dimension" type="nominal" />
+            <column name="[Reporting Year]" datatype="integer" role="dimension" type="quantitative" />
+            <column name="[Property Use]" datatype="string" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;Multifamily LR (1-4)&quot;" value="Multifamily: low-rise" />
+                <alias key="&quot;Multifamily MR (5-9)&quot;" value="Multifamily: mid-rise" />
+                <alias key="&quot;Multifamily HR (10+)&quot;" value="Multifamily: high-rise" />
+                <alias key="&quot;K-12 School&quot;" value="K–12 school" />
+                <alias key="&quot;Non-Refrigerated Warehouse&quot;" value="Warehouse" />
+                <alias key="&quot;Residence Hall/Dormitory&quot;" value="Residence hall" />
+                <alias key="&quot;Senior Living Community&quot;" value="Senior living" />
+              </aliases>
+            </column>
+            <column name="[Neighborhood]" datatype="string" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;MAGNOLIA / QUEEN ANNE&quot;" value="Magnolia / QA" />
+                <alias key="&quot;GREATER DUWAMISH&quot;" value="Duwamish" />
+                <alias key="&quot;DELRIDGE NEIGHBORHOODS&quot;" value="Delridge" />
+                <alias key="&quot;LAKE UNION&quot;" value="Lake Union" />
+                <alias key="&quot;NORTHEAST&quot;" value="NE" />
+                <alias key="&quot;NORTHWEST&quot;" value="NW" />
+                <alias key="&quot;SOUTHEAST&quot;" value="SE" />
+                <alias key="&quot;SOUTHWEST&quot;" value="SW" />
+                <alias key="&quot;DOWNTOWN&quot;" value="Downtown" />
+                <alias key="&quot;BALLARD&quot;" value="Ballard" />
+                <alias key="&quot;CENTRAL&quot;" value="Central" />
+                <alias key="&quot;EAST&quot;" value="East" />
+                <alias key="&quot;NORTH&quot;" value="North" />
+              </aliases>
+            </column>
+            <column name="[Building Type]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Year Built]" datatype="integer" role="dimension" type="quantitative" />
+            <column name="[Floor Area sqft]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Site EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Site Energy kBtu]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Electricity kWh]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Gas therms]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[GHG tCO2e]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Report Status]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Demolished]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Source Row]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Eligible EUI]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+            <column name="[Matched Cohort]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Count]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Benchmark Available]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Median WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P25 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P75 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P90 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Relative to Peer]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Percentile]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Eligible GHG]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+            <column name="[Eligibility Reason]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Log10 floor area]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Floor Area sqft] &gt; 0 THEN LOG([Floor Area sqft]) END" />
+            </column>
+            <column name="[Log10 peer ratio]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Relative to Peer] &gt; 0 THEN LOG([Relative to Peer]) END" />
+            </column>
+            <column name="[Eligible WN EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Eligible EUI] = 1 THEN [WN EUI] END" />
+            </column>
+            <column name="[Continuous-cohort WN EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Matched Cohort] = 1 THEN [WN EUI] END" />
+            </column>
+            <column name="[Cohort baseline EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2019 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+            </column>
+            <column name="[Cohort comparison EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2024 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+            </column>
+            <column name="[Cohort building change]" datatype="real" role="measure" type="quantitative" default-format="p0.0%">
+              <calculation class="tableau" formula="[Cohort comparison EUI] / [Cohort baseline EUI] - 1" />
+            </column>
+            <column name="[Cohort use N]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Property Use] : COUNTD(IF [Matched Cohort] = 1 THEN [Building ID] END) }" />
+            </column>
+            <column-instance column="[Building ID]" derivation="Count" name="[cnt:Building ID:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Cohort building change]" derivation="Median" name="[median:Cohort building change:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Cohort use N]" derivation="None" name="[none:Cohort use N:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Matched Cohort]" derivation="None" name="[none:Matched Cohort:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Property Use]" derivation="None" name="[none:Property Use:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Reporting Year]" derivation="None" name="[none:Reporting Year:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]" included-values="in-range">
+            <min>2024</min>
+            <max>2024</max>
+          </filter>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Matched Cohort:qk]" included-values="in-range">
+            <min>1</min>
+            <max>1</max>
+          </filter>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Cohort use N:qk]" included-values="in-range">
+            <min>20</min>
+          </filter>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="title" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Cohort building change:qk]" scope="cols" value="Cohort building change" />
+            <format attr="auto-subtitle" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Cohort building change:qk]" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="header">
+            <format attr="font-size" value="10" />
+            <format attr="width" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Property Use:nk]" value="180" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+            <encodings>
+              <text column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Cohort building change:qk]" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Arial" fontcolor="#586b78">Property use: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Property Use:nk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Median individual EUI change: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Cohort building change:qk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Paired buildings: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[cnt:Building ID:qk]&gt;
+</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-color" value="#c67c58" />
+                <format attr="mark-transparency" value="255" />
+                <format attr="size" value="1" />
+                <format attr="mark-labels-show" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Property Use:nk]</rows>
+        <cols>[federated.0ik4g6k0g3775l1es5lck0zdefdr].[median:Cohort building change:qk]</cols>
+      </table>
+      <simple-id uuid="{C39698B5-C30B-4C81-9F81-EC15D8FF9D3A}" />
+    </worksheet>
+    <worksheet name="Reporting coverage">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname="Arial" fontsize="14" bold="true" fontcolor="#173c51">Eligibility coverage | Share of reported records with usable EUI</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Seattle Building Performance" name="federated.0ik4g6k0g3775l1es5lck0zdefdr" />
+          </datasources>
+          <datasource-dependencies datasource="federated.0ik4g6k0g3775l1es5lck0zdefdr">
+            <column name="[Building ID]" datatype="integer" role="dimension" type="nominal" />
+            <column name="[Reporting Year]" datatype="integer" role="dimension" type="quantitative" />
+            <column name="[Property Use]" datatype="string" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;Multifamily LR (1-4)&quot;" value="Multifamily: low-rise" />
+                <alias key="&quot;Multifamily MR (5-9)&quot;" value="Multifamily: mid-rise" />
+                <alias key="&quot;Multifamily HR (10+)&quot;" value="Multifamily: high-rise" />
+                <alias key="&quot;K-12 School&quot;" value="K–12 school" />
+                <alias key="&quot;Non-Refrigerated Warehouse&quot;" value="Warehouse" />
+                <alias key="&quot;Residence Hall/Dormitory&quot;" value="Residence hall" />
+                <alias key="&quot;Senior Living Community&quot;" value="Senior living" />
+              </aliases>
+            </column>
+            <column name="[Neighborhood]" datatype="string" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;MAGNOLIA / QUEEN ANNE&quot;" value="Magnolia / QA" />
+                <alias key="&quot;GREATER DUWAMISH&quot;" value="Duwamish" />
+                <alias key="&quot;DELRIDGE NEIGHBORHOODS&quot;" value="Delridge" />
+                <alias key="&quot;LAKE UNION&quot;" value="Lake Union" />
+                <alias key="&quot;NORTHEAST&quot;" value="NE" />
+                <alias key="&quot;NORTHWEST&quot;" value="NW" />
+                <alias key="&quot;SOUTHEAST&quot;" value="SE" />
+                <alias key="&quot;SOUTHWEST&quot;" value="SW" />
+                <alias key="&quot;DOWNTOWN&quot;" value="Downtown" />
+                <alias key="&quot;BALLARD&quot;" value="Ballard" />
+                <alias key="&quot;CENTRAL&quot;" value="Central" />
+                <alias key="&quot;EAST&quot;" value="East" />
+                <alias key="&quot;NORTH&quot;" value="North" />
+              </aliases>
+            </column>
+            <column name="[Building Type]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Year Built]" datatype="integer" role="dimension" type="quantitative" />
+            <column name="[Floor Area sqft]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Site EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Site Energy kBtu]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Electricity kWh]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Gas therms]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[GHG tCO2e]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Report Status]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Demolished]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Source Row]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Eligible EUI]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+            <column name="[Matched Cohort]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Count]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Benchmark Available]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Median WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P25 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P75 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P90 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Relative to Peer]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Percentile]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Eligible GHG]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+            <column name="[Eligibility Reason]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Log10 floor area]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Floor Area sqft] &gt; 0 THEN LOG([Floor Area sqft]) END" />
+            </column>
+            <column name="[Log10 peer ratio]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Relative to Peer] &gt; 0 THEN LOG([Relative to Peer]) END" />
+            </column>
+            <column name="[Eligible WN EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Eligible EUI] = 1 THEN [WN EUI] END" />
+            </column>
+            <column name="[Continuous-cohort WN EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Matched Cohort] = 1 THEN [WN EUI] END" />
+            </column>
+            <column name="[Cohort baseline EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2019 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+            </column>
+            <column name="[Cohort comparison EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2024 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+            </column>
+            <column name="[Cohort building change]" datatype="real" role="measure" type="quantitative" default-format="p0.0%">
+              <calculation class="tableau" formula="[Cohort comparison EUI] / [Cohort baseline EUI] - 1" />
+            </column>
+            <column name="[Cohort use N]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Property Use] : COUNTD(IF [Matched Cohort] = 1 THEN [Building ID] END) }" />
+            </column>
+            <column-instance column="[Eligible EUI]" derivation="Avg" name="[avg:Eligible EUI:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Building ID]" derivation="Count" name="[cnt:Building ID:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Neighborhood]" derivation="None" name="[none:Neighborhood:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Reporting Year]" derivation="None" name="[none:Reporting Year:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]" included-values="in-range">
+            <min>2019</min>
+            <max>2024</max>
+          </filter>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="title" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]" scope="cols" value="Reporting Year" />
+            <format attr="auto-subtitle" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="header">
+            <format attr="font-size" value="10" />
+            <format attr="width" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Neighborhood:nk]" value="180" />
+          </style-rule>
+          <style-rule element="mark">
+            <encoding attr="color" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[avg:Eligible EUI:qk]" min="0.8" max="1" center="0.9" symmetric="false" type="custom-interpolated">
+              <color-palette custom="true" name="" type="ordered-diverging">
+                <color>#e5a17e</color>
+                <color>#f7f7f5</color>
+                <color>#65b5b6</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Square" />
+            <encodings>
+              <color column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[avg:Eligible EUI:qk]" />
+              <text column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[avg:Eligible EUI:qk]" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Arial" fontcolor="#586b78">Neighborhood: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Neighborhood:nk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Year: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Eligible share: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[avg:Eligible EUI:qk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Reported records: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[cnt:Building ID:qk]&gt;
+</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-color" value="#247f83" />
+                <format attr="mark-transparency" value="255" />
+                <format attr="size" value="1" />
+                <format attr="mark-labels-show" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Neighborhood:nk]</rows>
+        <cols>[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]</cols>
+      </table>
+      <simple-id uuid="{FF87435E-9F5E-40F3-BA18-18A743F51DAD}" />
+    </worksheet>
+    <worksheet name="Reporting exceptions">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname="Arial" fontsize="14" bold="true" fontcolor="#173c51">2024 exceptions | Excluded from EUI comparisons</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Seattle Building Performance" name="federated.0ik4g6k0g3775l1es5lck0zdefdr" />
+          </datasources>
+          <datasource-dependencies datasource="federated.0ik4g6k0g3775l1es5lck0zdefdr">
+            <column name="[Building ID]" datatype="integer" role="dimension" type="nominal" />
+            <column name="[Reporting Year]" datatype="integer" role="dimension" type="quantitative" />
+            <column name="[Property Use]" datatype="string" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;Multifamily LR (1-4)&quot;" value="Multifamily: low-rise" />
+                <alias key="&quot;Multifamily MR (5-9)&quot;" value="Multifamily: mid-rise" />
+                <alias key="&quot;Multifamily HR (10+)&quot;" value="Multifamily: high-rise" />
+                <alias key="&quot;K-12 School&quot;" value="K–12 school" />
+                <alias key="&quot;Non-Refrigerated Warehouse&quot;" value="Warehouse" />
+                <alias key="&quot;Residence Hall/Dormitory&quot;" value="Residence hall" />
+                <alias key="&quot;Senior Living Community&quot;" value="Senior living" />
+              </aliases>
+            </column>
+            <column name="[Neighborhood]" datatype="string" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;MAGNOLIA / QUEEN ANNE&quot;" value="Magnolia / QA" />
+                <alias key="&quot;GREATER DUWAMISH&quot;" value="Duwamish" />
+                <alias key="&quot;DELRIDGE NEIGHBORHOODS&quot;" value="Delridge" />
+                <alias key="&quot;LAKE UNION&quot;" value="Lake Union" />
+                <alias key="&quot;NORTHEAST&quot;" value="NE" />
+                <alias key="&quot;NORTHWEST&quot;" value="NW" />
+                <alias key="&quot;SOUTHEAST&quot;" value="SE" />
+                <alias key="&quot;SOUTHWEST&quot;" value="SW" />
+                <alias key="&quot;DOWNTOWN&quot;" value="Downtown" />
+                <alias key="&quot;BALLARD&quot;" value="Ballard" />
+                <alias key="&quot;CENTRAL&quot;" value="Central" />
+                <alias key="&quot;EAST&quot;" value="East" />
+                <alias key="&quot;NORTH&quot;" value="North" />
+              </aliases>
+            </column>
+            <column name="[Building Type]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Year Built]" datatype="integer" role="dimension" type="quantitative" />
+            <column name="[Floor Area sqft]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Site EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Site Energy kBtu]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Electricity kWh]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Gas therms]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[GHG tCO2e]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Report Status]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Demolished]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Source Row]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Eligible EUI]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+            <column name="[Matched Cohort]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Count]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Benchmark Available]" datatype="integer" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Median WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P25 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P75 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer P90 WN EUI]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Relative to Peer]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Peer Percentile]" datatype="real" role="measure" type="quantitative" default-format="n#,##0.00;-#,##0.00" />
+            <column name="[Eligible GHG]" datatype="integer" role="measure" type="quantitative" default-format="p0.0%" />
+            <column name="[Eligibility Reason]" datatype="string" role="dimension" type="nominal" />
+            <column name="[Log10 floor area]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Floor Area sqft] &gt; 0 THEN LOG([Floor Area sqft]) END" />
+            </column>
+            <column name="[Log10 peer ratio]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Relative to Peer] &gt; 0 THEN LOG([Relative to Peer]) END" />
+            </column>
+            <column name="[Eligible WN EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Eligible EUI] = 1 THEN [WN EUI] END" />
+            </column>
+            <column name="[Continuous-cohort WN EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [Matched Cohort] = 1 THEN [WN EUI] END" />
+            </column>
+            <column name="[Cohort baseline EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2019 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+            </column>
+            <column name="[Cohort comparison EUI]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2024 AND [Matched Cohort] = 1 THEN [WN EUI] END) }" />
+            </column>
+            <column name="[Cohort building change]" datatype="real" role="measure" type="quantitative" default-format="p0.0%">
+              <calculation class="tableau" formula="[Cohort comparison EUI] / [Cohort baseline EUI] - 1" />
+            </column>
+            <column name="[Cohort use N]" datatype="real" role="measure" type="quantitative">
+              <calculation class="tableau" formula="{ FIXED [Property Use] : COUNTD(IF [Matched Cohort] = 1 THEN [Building ID] END) }" />
+            </column>
+            <column-instance column="[Building ID]" derivation="Count" name="[cnt:Building ID:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Eligibility Reason]" derivation="None" name="[none:Eligibility Reason:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Eligible EUI]" derivation="None" name="[none:Eligible EUI:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Reporting Year]" derivation="None" name="[none:Reporting Year:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Reporting Year:qk]" included-values="in-range">
+            <min>2024</min>
+            <max>2024</max>
+          </filter>
+          <filter class="quantitative" column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Eligible EUI:qk]" included-values="in-range">
+            <min>0</min>
+            <max>0</max>
+          </filter>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="title" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[cnt:Building ID:qk]" scope="cols" value="Reported records" />
+            <format attr="auto-subtitle" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[cnt:Building ID:qk]" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="header">
+            <format attr="font-size" value="10" />
+            <format attr="width" field="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Eligibility Reason:nk]" value="180" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+            <encodings>
+              <text column="[federated.0ik4g6k0g3775l1es5lck0zdefdr].[cnt:Building ID:qk]" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Arial" fontcolor="#586b78">Reason: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Eligibility Reason:nk]&gt;
+</run>
+                <run fontname="Arial" fontcolor="#586b78">Reported records: </run>
+                <run fontname="Arial" bold="true" fontcolor="#173c51">&lt;[federated.0ik4g6k0g3775l1es5lck0zdefdr].[cnt:Building ID:qk]&gt;
+</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-color" value="#c67c58" />
+                <format attr="mark-transparency" value="255" />
+                <format attr="size" value="1" />
+                <format attr="mark-labels-show" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ik4g6k0g3775l1es5lck0zdefdr].[none:Eligibility Reason:nk]</rows>
+        <cols>[federated.0ik4g6k0g3775l1es5lck0zdefdr].[cnt:Building ID:qk]</cols>
+      </table>
+      <simple-id uuid="{6DA4D4CE-035B-4582-BFB0-7F3058866728}" />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name="01 | Peer performance atlas">
+      <style />
+      <size minwidth="1440" maxwidth="1440" minheight="1060" maxheight="1060" sizing-mode="fixed" />
+      <datasources>
+        <datasource caption="Seattle Building Performance" name="federated.0ik4g6k0g3775l1es5lck0zdefdr" />
+      </datasources>
+      <zones>
+        <zone id="1" type-v2="layout-basic" x="0" y="0" w="100000" h="100000">
+          <zone id="2" type-v2="text" x="0" y="0" w="100000" h="9500">
+            <formatted-text>
+              <run fontname="Arial" fontsize="28" fontcolor="#ffffff" bold="true">SEATTLE / ENERGY PERFORMANCE ATLAS</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="background-color" value="#173c51" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone id="3" type-v2="text" x="1000" y="9800" w="98000" h="5500">
+            <formatted-text>
+              <run fontname="Arial" fontsize="12" fontcolor="#173c51" bold="false">2024 public building reports • Select a property-type bar or heatmap cell to filter linked views; click blank space to clear. Hover for source-level context.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone id="4" type-v2="text" x="1000" y="15700" w="98000" h="5200">
+            <formatted-text>
+              <run fontname="Arial" fontsize="14" fontcolor="#247f83" bold="true">3,712 reports  /  3,425 eligible EUI records  /  3,190 peer-benchmarked buildings before selections</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="background-color" value="#ffffff" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone id="10" name="Peer use selector" x="1000" y="22200" w="29000" h="36500">
+            <zone-style>
+              <format attr="background-color" value="#ffffff" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone id="11" name="Peer scatter" x="31000" y="22200" w="68000" h="36500">
+            <zone-style>
+              <format attr="background-color" value="#ffffff" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone id="12" name="Peer neighborhood matrix" x="1000" y="61000" w="98000" h="32000">
+            <zone-style>
+              <format attr="background-color" value="#ffffff" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone id="50" type-v2="text" x="1000" y="94500" w="98000" h="5200">
+            <formatted-text>
+              <run fontname="Arial" fontsize="10" fontcolor="#586b78" bold="false">Peer group = same reported use and year; at least 20 eligible records. Heatmap: teal ≤0.5×, neutral 1.0×, orange ≥1.5×; colors saturate beyond these limits. Hover for local N. Log10 peer ratio 0 = peer median. No causal or savings claim.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr="background-color" value="#f2f5f6" />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid="{17B0C9EF-5084-4BF3-90DF-321FF25C57E5}" />
+    </dashboard>
+    <dashboard name="02 | Cohort and reporting">
+      <style />
+      <size minwidth="1440" maxwidth="1440" minheight="1060" maxheight="1060" sizing-mode="fixed" />
+      <datasources>
+        <datasource caption="Seattle Building Performance" name="federated.0ik4g6k0g3775l1es5lck0zdefdr" />
+      </datasources>
+      <zones>
+        <zone id="1" type-v2="layout-basic" x="0" y="0" w="100000" h="100000">
+          <zone id="2" type-v2="text" x="0" y="0" w="100000" h="9500">
+            <formatted-text>
+              <run fontname="Arial" fontsize="28" fontcolor="#ffffff" bold="true">SEATTLE / COHORTS &amp; REPORTING CONFIDENCE</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="background-color" value="#173c51" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone id="3" type-v2="text" x="1000" y="9800" w="98000" h="5500">
+            <formatted-text>
+              <run fontname="Arial" fontsize="12" fontcolor="#173c51" bold="false">2019–2024 research view • Select a property-type bar to filter the trend, coverage and exception views. Clear the selection to restore the full population.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone id="4" type-v2="text" x="1000" y="15700" w="98000" h="5200">
+            <formatted-text>
+              <run fontname="Arial" fontsize="14" fontcolor="#247f83" bold="true">Before filters: 2,122 cohort buildings • Median EUI change: cohort −5.3% / reported population −8.0%</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="background-color" value="#ffffff" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone id="10" name="Cohort use selector" x="1000" y="22200" w="30000" h="34500">
+            <zone-style>
+              <format attr="background-color" value="#ffffff" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone id="11" name="Cohort trend" x="32000" y="22200" w="67000" h="34500">
+            <zone-style>
+              <format attr="background-color" value="#ffffff" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone id="12" name="Reporting coverage" x="1000" y="59700" w="64000" h="33300">
+            <zone-style>
+              <format attr="background-color" value="#ffffff" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone id="13" name="Reporting exceptions" x="66000" y="59700" w="33000" h="33300">
+            <zone-style>
+              <format attr="background-color" value="#ffffff" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone id="50" type-v2="text" x="1000" y="94500" w="98000" h="5200">
+            <formatted-text>
+              <run fontname="Arial" fontsize="10" fontcolor="#586b78" bold="false">Cohort = eligible in all six years, unchanged reported use. Bars show median individual percentage changes (groups with N≥20); the trend shows group medians. These are different statistics. Coverage uses all reports as the denominator. Missing values are never imputed. Independent study, not client work.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr="background-color" value="#f2f5f6" />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid="{81787A9E-31AF-498F-91BD-E91A297BCC0D}" />
+    </dashboard>
+  </dashboards>
+  <windows source-height="30">
+    <window class="dashboard" name="01 | Peer performance atlas" maximized="true">
+      <viewpoints>
+        <viewpoint name="Peer use selector">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="Peer scatter">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="Peer neighborhood matrix">
+          <zoom type="entire-view" />
+        </viewpoint>
+      </viewpoints>
+      <active id="-1" />
+      <simple-id uuid="{E53B0995-3200-4100-8500-9846E7584064}" />
+    </window>
+    <window class="dashboard" name="02 | Cohort and reporting">
+      <viewpoints>
+        <viewpoint name="Cohort use selector">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="Cohort trend">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="Reporting coverage">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="Reporting exceptions">
+          <zoom type="entire-view" />
+        </viewpoint>
+      </viewpoints>
+      <active id="-1" />
+      <simple-id uuid="{547C228B-1C75-49DA-9BB3-1F5BB3A09349}" />
+    </window>
+    <window class="worksheet" name="Peer use selector" hidden="true">
+      <cards />
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{2E4BAC1C-9B38-4CA2-8875-CBFD092DA7B5}" />
+    </window>
+    <window class="worksheet" name="Peer scatter" hidden="true">
+      <cards />
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{9BC0E58A-E95A-4A4C-808D-21D88CA01303}" />
+    </window>
+    <window class="worksheet" name="Peer neighborhood matrix" hidden="true">
+      <cards />
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{110391AB-4131-4AAD-8F71-7C7E25274145}" />
+    </window>
+    <window class="worksheet" name="Cohort trend" hidden="true">
+      <cards />
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{694C56E8-14A4-4773-A700-333AECCC1898}" />
+    </window>
+    <window class="worksheet" name="Cohort use selector" hidden="true">
+      <cards />
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{FE4BBC9F-2A01-4087-94F0-F5F14E7C30BA}" />
+    </window>
+    <window class="worksheet" name="Reporting coverage" hidden="true">
+      <cards />
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{E2CA8988-6839-430B-B5A5-91520B8D66A1}" />
+    </window>
+    <window class="worksheet" name="Reporting exceptions" hidden="true">
+      <cards />
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{66D449A8-1E1E-459B-8678-5169B2132753}" />
+    </window>
+  </windows>
+</workbook>

@@ -1,0 +1,10 @@
+{
+  "[Log10 floor area]": "IF [Floor Area sqft] > 0 THEN LOG([Floor Area sqft]) END",
+  "[Log10 peer ratio]": "IF [Relative to Peer] > 0 THEN LOG([Relative to Peer]) END",
+  "[Eligible WN EUI]": "IF [Eligible EUI] = 1 THEN [WN EUI] END",
+  "[Continuous-cohort WN EUI]": "IF [Matched Cohort] = 1 THEN [WN EUI] END",
+  "[Cohort baseline EUI]": "{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2019 AND [Matched Cohort] = 1 THEN [WN EUI] END) }",
+  "[Cohort comparison EUI]": "{ FIXED [Building ID] : MAX(IF [Reporting Year] = 2024 AND [Matched Cohort] = 1 THEN [WN EUI] END) }",
+  "[Cohort building change]": "[Cohort comparison EUI] / [Cohort baseline EUI] - 1",
+  "[Cohort use N]": "{ FIXED [Property Use] : COUNTD(IF [Matched Cohort] = 1 THEN [Building ID] END) }"
+}
