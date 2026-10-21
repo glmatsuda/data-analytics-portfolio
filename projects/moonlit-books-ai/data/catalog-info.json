@@ -1,0 +1,21 @@
+{
+  "catalog_kind": "openlibrary",
+  "count": 24,
+  "imported_at": "2026-10-21T06:28:45.508574+00:00",
+  "source_retrieved_at": [
+    "2026-10-21T06:26:11.286095+00:00",
+    "2026-10-21T06:26:13.237473+00:00",
+    "2026-10-21T06:26:15.058259+00:00"
+  ],
+  "source": "Open Library Search API",
+  "requests": [
+    "https://openlibrary.org/search.json?q=%28title%3A%22The+Hobbit%22+AND+author%3A%28Tolkien%29%29+OR+%28title%3A%22Howl%27s+Moving+Castle%22+AND+author%3A%28Diana+Wynne+Jones%29%29+OR+%28title%3A%22A+Wizard+of+Earthsea%22+AND+author%3A%28Ursula+Le+Guin%29%29+OR+%28title%3A%22Legends+%26+Lattes%22+AND+author%3A%28Travis+Baldree%29%29+OR+%28title%3A%22The+House+in+the+Cerulean+Sea%22+AND+author%3A%28Klune%29%29+OR+%28title%3A%22The+Hitchhiker%27s+Guide+to+the+Galaxy%22+AND+author%3A%28Douglas+Adams%29%29+OR+%28title%3A%22The+Long+Way+to+a+Small%2C+Angry+Planet%22+AND+author%3A%28Becky+Chambers%29%29+OR+%28title%3A%22The+Martian%22+AND+author%3A%28Andy+Weir%29%29&fields=key%2Ctitle%2Cauthor_name%2Cfirst_publish_year%2Csubject%2Cedition_count&limit=100",
+    "https://openlibrary.org/search.json?q=%28title%3A%22A+Psalm+for+the+Wild-Built%22+AND+author%3A%28Becky+Chambers%29%29+OR+%28title%3A%22Pride+and+Prejudice%22+AND+author%3A%28Jane+Austen%29%29+OR+%28title%3A%22Jane+Eyre%22+AND+author%3A%28Charlotte+Bronte%29%29+OR+%28title%3A%22Little+Women%22+AND+author%3A%28Louisa+May+Alcott%29%29+OR+%28title%3A%22The+Murder+of+Roger+Ackroyd%22+AND+author%3A%28Agatha+Christie%29%29+OR+%28title%3A%22The+Hound+of+the+Baskervilles%22+AND+author%3A%28Arthur+Conan+Doyle%29%29+OR+%28title%3A%22The+Adventures+of+Sherlock+Holmes%22+AND+author%3A%28Arthur+Conan+Doyle%29%29+OR+%28title%3A%22Frankenstein%22+AND+author%3A%28Mary+Shelley%29%29&fields=key%2Ctitle%2Cauthor_name%2Cfirst_publish_year%2Csubject%2Cedition_count&limit=100",
+    "https://openlibrary.org/search.json?q=%28title%3A%22Dracula%22+AND+author%3A%28Bram+Stoker%29%29+OR+%28title%3A%22The+Time+Machine%22+AND+author%3A%28Wells%29%29+OR+%28title%3A%22The+Secret+Garden%22+AND+author%3A%28Frances+Hodgson+Burnett%29%29+OR+%28title%3A%22Anne+of+Green+Gables%22+AND+author%3A%28Montgomery%29%29+OR+%28title%3A%22Alice%27s+Adventures+in+Wonderland%22+AND+author%3A%28Lewis+Carroll%29%29+OR+%28title%3A%22The+Wind+in+the+Willows%22+AND+author%3A%28Kenneth+Grahame%29%29+OR+%28title%3A%22Walden%22+AND+author%3A%28Henry+David+Thoreau%29%29+OR+%28title%3A%22A+Room+of+One%27s+Own%22+AND+author%3A%28Virginia+Woolf%29%29&fields=key%2Ctitle%2Cauthor_name%2Cfirst_publish_year%2Csubject%2Cedition_count&limit=100"
+  ],
+  "missing_lookup_targets": [],
+  "cached": true,
+  "scope": "Real bibliographic records; editorial shelf/tags; simulated USD prices and inventory. No book texts or original covers downloaded.",
+  "licensing_url": "https://openlibrary.org/developers/licensing",
+  "catalog_sha256": "754bdc9d6f45228c711a7e0d4e611c4bc75e22e61f0f2da9da2f1baadec287eb"
+}

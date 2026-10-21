@@ -1,0 +1,20 @@
+{
+  "code_checks": "passed",
+  "unit_tests": 13,
+  "javascript_syntax": "passed",
+  "invoice_pdf_visual_check": "invoice-08 inspected; no clipping",
+  "live_model_evaluation": "completed",
+  "passed_cases": 17,
+  "total_cases": 18,
+  "known_failure": "space-budget: unsupported humor preference",
+  "invoice_field_groups_correct": 70,
+  "invoice_field_groups_total": 70,
+  "browser_checks": [
+    "local model ready",
+    "real concierge answer with three valid source citations",
+    "invoice-08 printed total preserved at 34.40",
+    "document instruction flagged",
+    "reviewed control disabled for flagged invoice",
+    "follow-up review recorded locally"
+  ]
+}

@@ -1,0 +1,1086 @@
+{
+  "retrieved_at": "2026-10-21T06:26:11.286095+00:00",
+  "request_url": "https://openlibrary.org/search.json?q=%28title%3A%22The+Hobbit%22+AND+author%3A%28Tolkien%29%29+OR+%28title%3A%22Howl%27s+Moving+Castle%22+AND+author%3A%28Diana+Wynne+Jones%29%29+OR+%28title%3A%22A+Wizard+of+Earthsea%22+AND+author%3A%28Ursula+Le+Guin%29%29+OR+%28title%3A%22Legends+%26+Lattes%22+AND+author%3A%28Travis+Baldree%29%29+OR+%28title%3A%22The+House+in+the+Cerulean+Sea%22+AND+author%3A%28Klune%29%29+OR+%28title%3A%22The+Hitchhiker%27s+Guide+to+the+Galaxy%22+AND+author%3A%28Douglas+Adams%29%29+OR+%28title%3A%22The+Long+Way+to+a+Small%2C+Angry+Planet%22+AND+author%3A%28Becky+Chambers%29%29+OR+%28title%3A%22The+Martian%22+AND+author%3A%28Andy+Weir%29%29&fields=key%2Ctitle%2Cauthor_name%2Cfirst_publish_year%2Csubject%2Cedition_count&limit=100",
+  "response": {
+    "numFound": 64,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 64,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"The Hobbit\" AND author:(Tolkien)) OR (title:\"Howl's Moving Castle\" AND author:(Diana Wynne Jones)) OR (title:\"A Wizard of Earthsea\" AND author:(Ursula Le Guin)) OR (title:\"Legends & Lattes\" AND author:(Travis Baldree)) OR (title:\"The House in the Cerulean Sea\" AND author:(Klune)) OR (title:\"The Hitchhiker's Guide to the Galaxy\" AND author:(Douglas Adams)) OR (title:\"The Long Way to a Small, Angry Planet\" AND author:(Becky Chambers)) OR (title:\"The Martian\" AND author:(Andy Weir))",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Diana Wynne Jones"
+        ],
+        "edition_count": 37,
+        "first_publish_year": 1986,
+        "key": "/works/OL60149W",
+        "title": "Howl's Moving Castle",
+        "subject": [
+          "Blessing and cursing",
+          "Castles",
+          "Fantasy",
+          "Fiction",
+          "Witches",
+          "Wizards",
+          "deamons",
+          "magic",
+          "Sisters",
+          "Fantasy fiction",
+          "Children's fiction",
+          "Wizards, fiction",
+          "Howl, the magician (fictitious character), fiction",
+          "Young adults",
+          "Juvenile fiction"
+        ]
+      },
+      {
+        "author_name": [
+          "Ursula K. Le Guin"
+        ],
+        "edition_count": 87,
+        "first_publish_year": 1968,
+        "key": "/works/OL59798W",
+        "title": "A Wizard of Earthsea",
+        "subject": [
+          "Fiction",
+          "Magic",
+          "Magic in fiction",
+          "Fantasy",
+          "Wizards",
+          "Wizards in fiction",
+          "Bk. 1.",
+          "Earthsea (Le Guin, Ursula K.)",
+          "Juvenile fiction",
+          "Children's fiction",
+          "Magic, fiction",
+          "Science fiction",
+          "Fantasy fiction",
+          "Fiction, fantasy, general",
+          "Margaret A. Edwards Award",
+          "Earthsea (Imaginary place)",
+          "Fantastic fiction",
+          "Ged (fictitious character), fiction",
+          "Children's stories",
+          "Ged (Fictitious character)",
+          "Young adult fiction"
+        ]
+      },
+      {
+        "author_name": [
+          "Becky Chambers"
+        ],
+        "edition_count": 21,
+        "first_publish_year": 2014,
+        "key": "/works/OL17716925W",
+        "title": "The Long Way to a Small, Angry Planet",
+        "subject": [
+          "Fiction",
+          "Science fiction",
+          "Extraterrestrial beings",
+          "Interplanetary voyages",
+          "Fiction, science fiction, general",
+          "LGBTQ science fiction & fantasy",
+          "Space warfare",
+          "Action & Adventure",
+          "Romance",
+          "LGBT",
+          "Space Opera"
+        ]
+      },
+      {
+        "author_name": [
+          "Douglas Adams"
+        ],
+        "edition_count": 130,
+        "first_publish_year": 1979,
+        "key": "/works/OL2163649W",
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "subject": [
+          "comic science fiction",
+          "Vogons",
+          "Humorous fiction",
+          "Imaginary voyages",
+          "wit and humour",
+          "Science Fiction",
+          "Interstellar travel",
+          "Fiction",
+          "Interplanetary voyages",
+          "Open Library Staff Picks",
+          "Life on other planets",
+          "Ford Prefect (Fictitious character)",
+          "Arthur Dent (Fictitious character)",
+          "Humorous stories",
+          "Viajes interplanetarios",
+          "Ficción",
+          "Language readers",
+          "Reading Level-Grade 11",
+          "Reading Level-Grade 12",
+          "Radio plays",
+          "English literature",
+          "Fiction, science fiction, general",
+          "Fiction, humorous",
+          "Dent, arthur (fictitious character), fiction",
+          "Prefect, ford (fictitious character), fiction",
+          "Fiction, science fiction, action & adventure",
+          "Christian life",
+          "Indians of North America",
+          "Science-fiction",
+          "Fiction, humorous, general",
+          "New age movement",
+          "Fiction, action & adventure",
+          "English language",
+          "Adventure",
+          "Humorous",
+          "Action & adventure",
+          "General",
+          "Space opera",
+          "English & college success -> english -> fiction",
+          "English & college success -> english -> humor",
+          "Fiction in English"
+        ]
+      },
+      {
+        "author_name": [
+          "Travis Baldree"
+        ],
+        "edition_count": 19,
+        "first_publish_year": 2022,
+        "key": "/works/OL27591348W",
+        "title": "Legends & Lattes",
+        "subject": [
+          "cozy fantasy",
+          "Fantasy",
+          "Romance",
+          "Fiction",
+          "Audiobook",
+          "Cozy",
+          "LGBT",
+          "Queer",
+          "Adult",
+          "Lesbian",
+          "LGBTQ+",
+          "Fiction, fantasy, general",
+          "nyt:trade-fiction-paperback=2022-11-27",
+          "New York Times bestseller",
+          "series:Legends & Lattes"
+        ]
+      },
+      {
+        "author_name": [
+          "Andy Weir"
+        ],
+        "edition_count": 74,
+        "first_publish_year": 2011,
+        "key": "/works/OL17091839W",
+        "title": "The Martian",
+        "subject": [
+          "Science-Fiction",
+          "Science Fiction & Fantasy",
+          "Suspense & Thriller",
+          "Science fiction",
+          "Amerikanisches Englisch",
+          "Astronauts",
+          "Survival",
+          "Fiction",
+          "Survival skills",
+          "Supervivencia",
+          "Novela",
+          "Astronautas",
+          "Reading Level-Grade 7",
+          "Reading Level-Grade 9",
+          "Reading Level-Grade 8",
+          "Reading Level-Grade 11",
+          "Reading Level-Grade 10",
+          "Reading Level-Grade 12",
+          "Fiction, science fiction, action & adventure",
+          "Fiction, science fiction, general",
+          "Large type books",
+          "Arabic language materials",
+          "Romans, nouvelles",
+          "nyt:hardcover-fiction=2014-03-02",
+          "New York Times bestseller",
+          "Chang pian xiao shuo",
+          "Children's fiction",
+          "Adventure and adventurers, fiction",
+          "Fantasy fiction"
+        ]
+      },
+      {
+        "author_name": [
+          "Diana Wynne Jones"
+        ],
+        "edition_count": 27,
+        "first_publish_year": 1990,
+        "key": "/works/OL60141W",
+        "title": "Castle in the Air",
+        "subject": [
+          "Fantasy",
+          "Juvenile fiction",
+          "Magic",
+          "Fiction",
+          "Kidnapping, fiction",
+          "Magic, fiction",
+          "Children's fiction",
+          "Fantasy fiction",
+          "adventure",
+          "love",
+          "humour",
+          "Public law (Jewish law)",
+          "Jewish law",
+          "Moral and ethical aspects",
+          "Judaism and state",
+          "Judaism and politics",
+          "History",
+          "Jews",
+          "Politics and government",
+          "Leadership",
+          "Judaism"
+        ]
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 482,
+        "first_publish_year": 1937,
+        "key": "/works/OL27482W",
+        "title": "The Hobbit",
+        "subject": [
+          "Fantasy",
+          "Arkenstone",
+          "Battle of Five Armies",
+          "invisibility",
+          "thrushes",
+          "eagles",
+          "hobbits",
+          "wizards",
+          "dragons",
+          "dwarves",
+          "elves",
+          "men",
+          "trolls",
+          "goblins",
+          "giant spiders",
+          "the one ring",
+          "juvenile fantasy",
+          "YOUNG ADULT FICTION",
+          "Fantasy fiction",
+          "Juvenile fiction",
+          "Fiction",
+          "Classics",
+          "General",
+          "Media Tie-In",
+          "children's books",
+          "juvenile works",
+          "Teen & Young Adult literature",
+          "English Fantasy fiction",
+          "Specimens",
+          "Juvenile Fantasy fiction",
+          "Toy and movable books",
+          "Magic in fiction",
+          "Open Library Staff Picks",
+          "juvenile literature",
+          "Pictorial works",
+          "Magic",
+          "Quests (Expeditions)",
+          "Graphic novels",
+          "Dragons in fiction",
+          "Children's stories",
+          "Ficción fantástica inglesa",
+          "Fantasy in fiction",
+          "Translations into Russian",
+          "Ficción",
+          "Middle Earth (Imaginary place)",
+          "Tierra Media (Lugar imaginario)",
+          "Bilbo Baggins (Fictitious character)",
+          "Dwarfs",
+          "Comic books, strips",
+          "Reading Level-Grade 11",
+          "Reading Level-Grade 12",
+          "British and irish fiction (fictional works by one author)",
+          "Fiction, fantasy, general",
+          "Middle earth (imaginary place), fiction",
+          "Comics & graphic novels, fantasy",
+          "Science fiction, fantasy, horror",
+          "Child and youth fiction",
+          "Gollum (Fictitious character)",
+          "Hobbits (Fictitious characters)",
+          "Baggins, bilbo (fictitious character), fiction",
+          "Children's fiction",
+          "Gandalf (fictitious character), fiction",
+          "Baggins, frodo (fictitious character), fiction",
+          "Characters",
+          "Characters and characteristics",
+          "Hobbit, an unexpected journey (Motion picture)",
+          "Hobbit (Tolkien, J.R.R.)",
+          "YOUNG ADULT FICTION / Classics",
+          "YOUNG ADULT FICTION / Fantasy / General",
+          "YOUNG ADULT FICTION / Media Tie-In",
+          "Motion pictures",
+          "Fiction, fantasy, epic",
+          "English literature",
+          "Fiction, media tie-in",
+          "Courage",
+          "Literatura angielska dla młodzieży",
+          "Tłumaczenia polskie",
+          "Novela Inglesa",
+          "Spanish language materials",
+          "Untranslated",
+          "Terre du Milieu (Lieu imaginaire)",
+          "Romans, nouvelles",
+          "Hobbits (Personnages fictifs)",
+          "Novela fantástica",
+          "Magiciens",
+          "Schultheater",
+          "Fiction, fairy tales, folk tales, legends & mythology",
+          "Fiction, fantasy, dragons & mythical creatures",
+          "Comics & graphic novels, fantasy, general",
+          "Good and evil",
+          "English Fantasy literature",
+          "English fiction",
+          "Adventure stories"
+        ]
+      },
+      {
+        "author_name": [
+          "Douglas Adams"
+        ],
+        "edition_count": 10,
+        "first_publish_year": 1996,
+        "key": "/works/OL2163706W",
+        "title": "Works (Hitch Hiker's Guide to the Galaxy / Restaurant at the End of the Universe / Life, the Universe and Everything / So Long, and Thanks for All the Fish / Mostly Harmless / Young Zaphod Plays it Safe)",
+        "subject": [
+          "comic science fiction",
+          "Vogons",
+          "Humorous fiction",
+          "Imaginary voyages",
+          "wit and humour",
+          "Science Fiction",
+          "Interstellar travel",
+          "Fiction",
+          "Interplanetary voyages",
+          "Life on other planets",
+          "Humorous stories",
+          "fantasy fiction",
+          "English Humorous stories",
+          "English Science fiction",
+          "Humorous stories, English",
+          "Science fiction, English",
+          "English literature",
+          "Fiction, science fiction, action & adventure",
+          "Dent, arthur (fictitious character), fiction",
+          "Prefect, ford (fictitious character), fiction",
+          "Short stories",
+          "Fiction, science fiction, general",
+          "Fiction, humorous, general"
+        ]
+      },
+      {
+        "author_name": [
+          "T. J. Klune"
+        ],
+        "edition_count": 20,
+        "first_publish_year": 2019,
+        "key": "/works/OL20656224W",
+        "title": "The House in the Cerulean Sea",
+        "subject": [
+          "Serie:Cerulean_Chronicles",
+          "American literature",
+          "nyt:trade-fiction-paperback=2021-01-17",
+          "New York Times bestseller",
+          "LGBTQ science fiction & fantasy",
+          "LGBTQ young adult",
+          "Fiction, fantasy, paranormal",
+          "Fiction, occult & supernatural",
+          "Magic",
+          "Fiction",
+          "Orphans",
+          "Children",
+          "Orphanages",
+          "Institutional care",
+          "Social workers",
+          "Mythical animals",
+          "FICTION / Fantasy / Contemporary",
+          "FICTION / Fantasy / Humorous",
+          "FICTION / Fantasy / Romantic",
+          "End of the world"
+        ]
+      },
+      {
+        "author_name": [
+          "Douglas Adams"
+        ],
+        "edition_count": 14,
+        "first_publish_year": 1979,
+        "key": "/works/OL2163690W",
+        "title": "Novels (Hitch Hiker's Guide to the Galaxy / Restaurant at the End of the Universe / Life, the Universe and Everything / So Long, and Thanks for All the Fish)",
+        "subject": [
+          "comic science fiction",
+          "Vogons",
+          "Humorous fiction",
+          "Imaginary voyages",
+          "wit and humour",
+          "Science Fiction",
+          "Interstellar travel",
+          "Fiction",
+          "Interplanetary voyages",
+          "Life on other planets",
+          "Humorous stories",
+          "Restaurants",
+          "Fiction, science fiction, general",
+          "Fiction, humorous",
+          "Dent, arthur (fictitious character), fiction",
+          "Prefect, ford (fictitious character), fiction",
+          "Arthur Dent (Fictitious character)",
+          "English Humorous stories",
+          "English Science fiction",
+          "Ford Prefect (Fictitious character)",
+          "Humorous stories, English",
+          "Science fiction, English",
+          "Long Now Manual for Civilization",
+          "English literature",
+          "Fiction, humorous, general"
+        ]
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 27,
+        "first_publish_year": 1979,
+        "key": "/works/OL14926019W",
+        "title": "The Hobbit & The Lord of the Rings [collection/set]",
+        "subject": [
+          "Fiction, fantasy, epic",
+          "Middle earth (imaginary place), fiction",
+          "Baggins, frodo (fictitious character), fiction",
+          "Baggins, bilbo (fictitious character), fiction",
+          "Gandalf (fictitious character), fiction",
+          "Science fiction, fantasy, horror",
+          "British and irish fiction (fictional works by one author)",
+          "Fiction, fantasy, general"
+        ]
+      },
+      {
+        "author_name": [
+          "Ursula K. Le Guin"
+        ],
+        "edition_count": 10,
+        "first_publish_year": 1977,
+        "key": "/works/OL59796W",
+        "title": "The Earthsea Trilogy",
+        "subject": [
+          "Fiction, science fiction, general"
+        ]
+      },
+      {
+        "author_name": [
+          "Charles Dixon",
+          "Sean Deming",
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 10,
+        "first_publish_year": 1990,
+        "key": "/works/OL219602W",
+        "title": "The Hobbit",
+        "subject": [
+          "Middle Earth (Imaginary place)",
+          "Comic books, strips",
+          "Children's fiction",
+          "Fantasy fiction",
+          "Middle earth (imaginary place), fiction",
+          "Gandalf (fictitious character), fiction"
+        ]
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 253,
+        "first_publish_year": 1954,
+        "key": "/works/OL27448W",
+        "title": "The Lord of the Rings",
+        "subject": [
+          "The Lord of the Rings",
+          "Fiction",
+          "Ficción",
+          "English Fantasy fiction",
+          "Ficción fantástica inglesa",
+          "Fantasy fiction",
+          "Open Library Staff Picks",
+          "Middle Earth (Imaginary place)",
+          "Fiction, fantasy, epic",
+          "Middle earth (imaginary place), fiction",
+          "Baggins, frodo (fictitious character), fiction",
+          "Gandalf (fictitious character), fiction",
+          "British and irish fiction (fictional works by one author)",
+          "English literature",
+          "Frodo Baggins (Fictitious character)",
+          "Baggins, bilbo (fictitious character), fiction",
+          "Fiction, fantasy, general",
+          "English language",
+          "Fiction, media tie-in",
+          "Gift books",
+          "Quests (Expeditions)",
+          "Wizards",
+          "Terre du Milieu (Lieu imaginaire)",
+          "Romans, nouvelles",
+          "Quête",
+          "Lord of the rings (Tolkien, J.R.R.)",
+          "Филологические науки. Художественная литература -- Великобритания -- Английская литература -- с 1945 г. -- Произведения художественной литературы -- Художественная проза -- Романы. Повести. Рассказы -- Фантастические и мистические романы, повести, рассказы. Романы ужасов",
+          "Baggins, frodo",
+          "Middle earth (imaginary place)--fiction",
+          "Fantasy fiction, english",
+          "Pr6039.o32 l6 2005",
+          "823/.912",
+          "Fiction in English",
+          "Hobbits (Fictitious characters)",
+          "Hobbits (Personnages fictifs)",
+          "Telephone directories"
+        ]
+      },
+      {
+        "author_name": [
+          "Diana Wynne Jones"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2014,
+        "key": "/works/OL26560717W",
+        "title": "World of Howl Collection",
+        "subject": [
+          "Children's fiction",
+          "Magic, fiction",
+          "Adventure and adventurers, fiction",
+          "Fantasy fiction"
+        ]
+      },
+      {
+        "author_name": [
+          "Douglas Adams"
+        ],
+        "edition_count": 13,
+        "first_publish_year": 1979,
+        "key": "/works/OL2163668W",
+        "title": "Novels (Hitch Hiker's Guide to the Galaxy / Restaurant at the End of the Universe / Life, the Universe and Everything / So Long, and Thanks for All the Fish / Mostly Harmless)",
+        "subject": [
+          "Fiction, science fiction, general",
+          "Fiction, humorous",
+          "Dent, arthur (fictitious character), fiction",
+          "Prefect, ford (fictitious character), fiction",
+          "Fiction"
+        ]
+      },
+      {
+        "author_name": [
+          "Douglas Adams"
+        ],
+        "edition_count": 10,
+        "first_publish_year": 1985,
+        "key": "/works/OL2163621W",
+        "title": "The Original Hitchhiker Radio Scripts",
+        "subject": [
+          "Drama",
+          "Fiction",
+          "English Science fiction plays",
+          "English Radio plays",
+          "Hitchhiker's guide to the galaxy (Radio program)",
+          "Fiction, science fiction, general",
+          "Fiction, humorous, general",
+          "Dent, arthur (fictitious character), fiction",
+          "Prefect, ford (fictitious character), fiction",
+          "Science fiction radio programs"
+        ]
+      },
+      {
+        "author_name": [
+          "Ursula K. Le Guin"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2003,
+        "key": "/works/OL15056565W",
+        "title": "A Wizard of Earthsea/The Tombs of Atuan"
+      },
+      {
+        "author_name": [
+          "Douglas Adams"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2005,
+        "key": "/works/OL38839155W",
+        "title": "The Hitchhiker's Guide to the Galaxy"
+      },
+      {
+        "author_name": [
+          "Andy Weir"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2022,
+        "key": "/works/OL36735881W",
+        "title": "The Martian / Artemis / Project Hail Mary",
+        "subject": [
+          "Fiction, science fiction, general",
+          "Anthology"
+        ]
+      },
+      {
+        "author_name": [
+          "Diana Wynne Jones"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2002,
+        "key": "/works/OL16104968W",
+        "title": "Wizard's Castle (Howl's Moving Castle #1-2)"
+      },
+      {
+        "author_name": [
+          "Travis Baldree"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2024,
+        "key": "/works/OL44588028W",
+        "title": "Legends & Lattes/Bookshops & Bonedust",
+        "subject": [
+          "Fiction, romance, general"
+        ]
+      },
+      {
+        "author_name": [
+          "Becky Chambers",
+          "Rachel Dulude"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2021,
+        "key": "/works/OL32164554W",
+        "title": "The Long Way to a Small, Angry Planet Lib/E"
+      },
+      {
+        "author_name": [
+          "Diana Wynne Jones"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2025,
+        "key": "/works/OL44541401W",
+        "title": "Howl's Moving Castle"
+      },
+      {
+        "author_name": [
+          "T. J. Klune"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2023,
+        "key": "/works/OL36262561W",
+        "title": "The House in the Cerulean Sea / Under the Whispering Door / In the Lives of Puppets",
+        "subject": [
+          "Fiction, science fiction, general",
+          "book set"
+        ]
+      },
+      {
+        "author_name": [
+          "T. J. Klune"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2024,
+        "key": "/works/OL44587814W",
+        "title": "The House in the Cerulean Sea / Somewhere Beyond the Sea",
+        "subject": [
+          "Fiction, romance, general"
+        ]
+      },
+      {
+        "author_name": [
+          "Ursula K. Le Guin"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2013,
+        "key": "/works/OL24190147W",
+        "title": "A Wizard of Earthsea/The Tombs of Atuan/The Farthest Shore - Tehanu/The Other Wind/Tales from Earthsea/Firelight"
+      },
+      {
+        "author_name": [
+          "Douglas Adams",
+          "Full Cast",
+          "Geoffrey McGivern",
+          "Mark Wing-Davey",
+          "Peter Jones",
+          "Simon Jones",
+          "Stephen Moore",
+          "Susan Sheridan"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2005,
+        "key": "/works/OL28773391W",
+        "title": "The Hitchhiker's Guide to the Galaxy, The Complete Radio Series"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 7,
+        "first_publish_year": 1954,
+        "key": "/works/OL27496W",
+        "title": "Novels (Fellowship of the Ring / Hobbit)"
+      },
+      {
+        "author_name": [
+          "Douglas Adams",
+          "Eoin Colfer",
+          "Simon Jones"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2019,
+        "key": "/works/OL29319024W",
+        "title": "The Hitchhiker’s Guide to the Galaxy"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1999,
+        "key": "/works/OL14933471W",
+        "title": "Poems from The hobbit",
+        "subject": [
+          "Poetry",
+          "Miniature books",
+          "English Fantasy poetry",
+          "Middle Earth (Imaginary place)",
+          "Specimens",
+          "Bilbo Baggins (Fictitious character)",
+          "Poetry (poetic works by one author)",
+          "Miniature books, specimens"
+        ]
+      },
+      {
+        "author_name": [
+          "Diana Wynne Jones"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2025,
+        "key": "/works/OL42440449W",
+        "title": "Howl's Moving Castle Deluxe Limited Edition"
+      },
+      {
+        "author_name": [
+          "Douglas Adams"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1979,
+        "key": "/works/OL43067294W",
+        "title": "the hitchhiker's guide to the galaxy"
+      },
+      {
+        "author_name": [
+          "Douglas Adams"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2019,
+        "key": "/works/OL44810497W",
+        "title": "The Hitchhiker's Guide To The Galaxy"
+      },
+      {
+        "author_name": [
+          "Douglas Adams"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2019,
+        "key": "/works/OL44810598W",
+        "title": "The Hitchhiker's Guide To The Galaxy"
+      },
+      {
+        "author_name": [
+          "Becky Chambers"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2021,
+        "key": "/works/OL44581817W",
+        "title": "Wayfarers Series, Collection Set of 4 Books. the Long Way to a Small, Angry Planet, a Closed and Common Orbit, Record of a Spaceborn Few, the Galaxy, and the Ground Within by Becky Chambers",
+        "subject": [
+          "Fiction, science fiction, general"
+        ]
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2004,
+        "key": "/works/OL14933367W",
+        "title": "The Hobbit / Lord of the Rings / Silmarillion"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2023,
+        "key": "/works/OL34051627W",
+        "title": "History of the Hobbit"
+      },
+      {
+        "author_name": [
+          "Douglas Adams"
+        ],
+        "edition_count": 0,
+        "key": "/works/OL38737610W",
+        "title": "The Hitchhiker's Guide to The Galaxy"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2013,
+        "key": "/works/OL26397401W",
+        "title": "HOBBIT. LA DESOLACION DE SMAUG, EL"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2008,
+        "key": "/works/OL37492399W",
+        "title": "Hobbiten eller ditut og attende"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 1991,
+        "key": "/works/OL14933371W",
+        "title": "HOBBIT BIRTHDAY BOOK",
+        "subject": [
+          "Birthday books"
+        ]
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1984,
+        "key": "/works/OL14933388W",
+        "title": "The Hobbit. 2/?"
+      },
+      {
+        "author_name": [
+          "Douglas Adams",
+          "Eoin Colfer"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2018,
+        "key": "/works/OL33284040W",
+        "title": "The hitchhiker's Guide to the Galaxy - omnibus 2"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien",
+          "Christina Scull",
+          "Wayne G. Hammond"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2011,
+        "key": "/works/OL21034216W",
+        "title": "Art of the Hobbit",
+        "subject": [
+          "Tolkien, j, r. r. (john ronald ruel), 1892-1973",
+          "Illustrations"
+        ]
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2004,
+        "key": "/works/OL32365019W",
+        "title": "Tolkien Diary",
+        "subject": [
+          "Non-classifiable"
+        ]
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2026,
+        "key": "/works/OL45346371W",
+        "title": "The Hobbit"
+      },
+      {
+        "author_name": [
+          "Ruth Perry",
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1972,
+        "key": "/works/OL8326333W",
+        "title": "The hobbit the musical",
+        "subject": [
+          "Fiction",
+          "Middle Earth (Imaginary place)",
+          "Musicals"
+        ]
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1987,
+        "key": "/works/OL14933399W",
+        "title": "J.R.R. Tolkien",
+        "subject": [
+          "Exhibitions",
+          "Illustrations",
+          "English Fantasy fiction",
+          "English Manuscripts",
+          "Middle Earth (Imaginary place) in art",
+          "Manuscripts"
+        ]
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1993,
+        "key": "/works/OL14933470W",
+        "title": "Poems",
+        "subject": [
+          "Poetry (poetic works by one author)",
+          "Miniature books",
+          "Specimens",
+          "English poetry",
+          "English Fantasy literature"
+        ]
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2021,
+        "key": "/works/OL27741781W",
+        "title": "The Hobbit & The Lord of the Rings 4 Books Boxed Set By J. R. R. Tolkien"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2004,
+        "key": "/works/OL14933377W",
+        "title": "The Hobbit Curriculum Unit"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1977,
+        "key": "/works/OL14926010W",
+        "title": "The Hobbit Desk Calendar 1978"
+      },
+      {
+        "author_name": [
+          "Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1977,
+        "key": "/works/OL43318196W",
+        "title": "The Rankin/Bass Production of The Hobbit, Based on the Original Version of The Hobbit written by J.R.R. Tolkien (Read-Along Book and Record #368)"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2012,
+        "key": "/works/OL27438540W",
+        "title": "Tolkien Calendar 2013"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2011,
+        "key": "/works/OL24214484W",
+        "title": "The Lord of the Rings and The Hobbit"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2005,
+        "key": "/works/OL32363545W",
+        "title": "Tolkien Calendar 2006"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "key": "/works/OL45346395W",
+        "title": "The Hobbit and The Lord of the Rings"
+      },
+      {
+        "author_name": [
+          "Patricia Gray",
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1968,
+        "key": "/works/OL45541457W",
+        "title": "J.R.R. Tolkien's The hobbit"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1976,
+        "key": "/works/OL262732W",
+        "title": "The Hobbit and Other Stories (Adventures of Tom Bombadil / Farmer Giles of Ham / Hobbit / Homecoming of Beorhtnoth / Smith of Wootton Major / Tree and Leaf)"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2013,
+        "key": "/works/OL35109712W",
+        "title": "El Hobbit. Un viaje inesperado. Crónicas. Criaturas y personajes"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2007,
+        "key": "/works/OL32350401W",
+        "title": "J. R. R. Tolkien Deluxe Edition Collection"
+      },
+      {
+        "author_name": [
+          "J.R.R. Tolkien"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2024,
+        "key": "/works/OL44576580W",
+        "title": "Collector's Edition, the Hobbit, the Silmarillion, the Fellowship of the Ring, the Two Towers, the Return of the King (the Lord of the Rings Vol. 1-3), 5 Books Set, by J.R.R. Tolkien",
+        "subject": [
+          "Fiction, fantasy, general"
+        ]
+      }
+    ]
+  }
+}

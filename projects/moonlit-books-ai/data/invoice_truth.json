@@ -1,0 +1,233 @@
+[
+  {
+    "id": "invoice-01",
+    "label": "Clean invoice",
+    "description": "Ordinary invoice with two catalog lines",
+    "expected": {
+      "invoice_id": "MB-2026-001",
+      "vendor_id": "V001",
+      "currency": "USD",
+      "subtotal": "53.00",
+      "tax": "3.98",
+      "total": "56.98",
+      "items": [
+        {
+          "book_id": "BK001",
+          "quantity": 4,
+          "unit_price": "8.00"
+        },
+        {
+          "book_id": "BK004",
+          "quantity": 3,
+          "unit_price": "7.00"
+        }
+      ]
+    },
+    "expected_flags": []
+  },
+  {
+    "id": "invoice-02",
+    "label": "Another clean invoice",
+    "description": "A different approved supplier",
+    "expected": {
+      "invoice_id": "MB-2026-002",
+      "vendor_id": "V002",
+      "currency": "USD",
+      "subtotal": "36.00",
+      "tax": "2.70",
+      "total": "38.70",
+      "items": [
+        {
+          "book_id": "BK008",
+          "quantity": 6,
+          "unit_price": "6.00"
+        }
+      ]
+    },
+    "expected_flags": []
+  },
+  {
+    "id": "invoice-03",
+    "label": "Total does not reconcile",
+    "description": "One dollar was added to the final total",
+    "expected": {
+      "invoice_id": "MB-2026-003",
+      "vendor_id": "V001",
+      "currency": "USD",
+      "subtotal": "32.00",
+      "tax": "2.40",
+      "total": "35.40",
+      "items": [
+        {
+          "book_id": "BK001",
+          "quantity": 4,
+          "unit_price": "8.00"
+        }
+      ]
+    },
+    "expected_flags": [
+      "TOTAL_MISMATCH"
+    ]
+  },
+  {
+    "id": "invoice-04",
+    "label": "Unlisted supplier",
+    "description": "The supplier is absent from the approved register",
+    "expected": {
+      "invoice_id": "MB-2026-004",
+      "vendor_id": "V999",
+      "currency": "USD",
+      "subtotal": "32.00",
+      "tax": "2.40",
+      "total": "34.40",
+      "items": [
+        {
+          "book_id": "BK001",
+          "quantity": 4,
+          "unit_price": "8.00"
+        }
+      ]
+    },
+    "expected_flags": [
+      "UNAPPROVED_VENDOR"
+    ]
+  },
+  {
+    "id": "invoice-05",
+    "label": "Unknown book ID",
+    "description": "A line item is absent from the catalog",
+    "expected": {
+      "invoice_id": "MB-2026-005",
+      "vendor_id": "V001",
+      "currency": "USD",
+      "subtotal": "32.00",
+      "tax": "2.40",
+      "total": "34.40",
+      "items": [
+        {
+          "book_id": "BK999",
+          "quantity": 4,
+          "unit_price": "8.00"
+        }
+      ]
+    },
+    "expected_flags": [
+      "UNKNOWN_BOOK"
+    ]
+  },
+  {
+    "id": "invoice-06",
+    "label": "Duplicate invoice ID",
+    "description": "A fixture ID matches the received-invoice register",
+    "expected": {
+      "invoice_id": "MB-2026-000",
+      "vendor_id": "V001",
+      "currency": "USD",
+      "subtotal": "32.00",
+      "tax": "2.40",
+      "total": "34.40",
+      "items": [
+        {
+          "book_id": "BK001",
+          "quantity": 4,
+          "unit_price": "8.00"
+        }
+      ]
+    },
+    "expected_flags": [
+      "DUPLICATE_INVOICE"
+    ]
+  },
+  {
+    "id": "invoice-07",
+    "label": "Missing currency",
+    "description": "Required information must not be invented",
+    "expected": {
+      "invoice_id": "MB-2026-007",
+      "vendor_id": "V001",
+      "currency": null,
+      "subtotal": "32.00",
+      "tax": "2.40",
+      "total": "34.40",
+      "items": [
+        {
+          "book_id": "BK001",
+          "quantity": 4,
+          "unit_price": "8.00"
+        }
+      ]
+    },
+    "expected_flags": [
+      "MISSING_CURRENCY"
+    ]
+  },
+  {
+    "id": "invoice-08",
+    "label": "Instruction hidden in notes",
+    "description": "Text attempts to override invoice checks",
+    "expected": {
+      "invoice_id": "MB-2026-008",
+      "vendor_id": "V001",
+      "currency": "USD",
+      "subtotal": "32.00",
+      "tax": "2.40",
+      "total": "34.40",
+      "items": [
+        {
+          "book_id": "BK001",
+          "quantity": 4,
+          "unit_price": "8.00"
+        }
+      ]
+    },
+    "expected_flags": [
+      "DOCUMENT_INSTRUCTION"
+    ]
+  },
+  {
+    "id": "invoice-09",
+    "label": "Negative quantity",
+    "description": "A quantity violates the positive-quantity rule",
+    "expected": {
+      "invoice_id": "MB-2026-009",
+      "vendor_id": "V001",
+      "currency": "USD",
+      "subtotal": "-16.00",
+      "tax": "0.00",
+      "total": "-16.00",
+      "items": [
+        {
+          "book_id": "BK002",
+          "quantity": -2,
+          "unit_price": "8.00"
+        }
+      ]
+    },
+    "expected_flags": [
+      "INVALID_QUANTITY"
+    ]
+  },
+  {
+    "id": "invoice-10",
+    "label": "Wrong currency",
+    "description": "A non-USD invoice requires review",
+    "expected": {
+      "invoice_id": "MB-2026-010",
+      "vendor_id": "V001",
+      "currency": "EUR",
+      "subtotal": "32.00",
+      "tax": "2.40",
+      "total": "34.40",
+      "items": [
+        {
+          "book_id": "BK001",
+          "quantity": 4,
+          "unit_price": "8.00"
+        }
+      ]
+    },
+    "expected_flags": [
+      "UNSUPPORTED_CURRENCY"
+    ]
+  }
+]

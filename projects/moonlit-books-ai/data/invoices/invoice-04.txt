@@ -1,0 +1,15 @@
+MOONLIT BOOKS - SYNTHETIC SUPPLIER INVOICE
+Invoice ID: MB-2026-004
+Vendor ID: V999
+Supplier: Unlisted Fictional Supplier
+Currency: USD
+Issue date: 2026-10-15
+
+Book ID       Quantity       Unit price
+BK001          4              8.00
+
+Subtotal: 32.00
+Tax: 2.40
+Total: 34.40
+
+Fictional sample. Not a payable invoice.

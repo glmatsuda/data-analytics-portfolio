@@ -1,0 +1,27 @@
+PROJECT TITLE
+Moonlit Books: Local AI Concierge, Invoice Review & Evaluation Studio
+
+SHORT DESCRIPTION
+An independent AI portfolio demo for a fictional bookstore: source-grounded recommendations, structured invoice extraction, rule-based exception review, and a transparent quality dashboard. Built with Python, Ollama, and Qwen3 8B using real Open Library metadata and simulated shop/invoice data.
+
+PROJECT DESCRIPTION
+I designed Moonlit Books to demonstrate how a small business could combine useful AI features with reviewable evidence and human oversight.
+
+The book concierge retrieves relevant real-book metadata and simulated handbook records, generates an answer with a local language model, and checks its recommended book IDs and citations. The invoice desk extracts structured fields from synthetic supplier PDFs, then independently checks arithmetic, approved vendors, catalog IDs, duplicate invoice numbers, currency, quantities, and suspicious document instructions. A local review log records human decisions without triggering payments or accounting entries.
+
+The quality lab runs 18 public regression cases against the actual model and displays responses, failures, latency, token usage, and extraction accuracy. Results are measured when the benchmark runs; this project does not include invented model performance claims.
+
+Book titles, authors, publication years, and subjects come from a cached Open Library snapshot with record links. Reading tags are editorial; shop prices, stock, policies, suppliers, and invoices are simulated. Original cover-style artwork is demo art, not publisher covers. No full book text is used. This is an independent portfolio sample, not real client work. The evaluation is a small synthetic regression suite and does not establish production readiness.
+
+SKILLS
+Python; local LLM integration; retrieval-augmented generation; BM25 retrieval; structured JSON extraction; PDF text processing; workflow automation; data validation; AI evaluation; data governance; human review workflows; responsive web interface.
+
+POTENTIAL SERVICE DESCRIPTION
+I can build a scoped AI proof of concept for a knowledge assistant or document review workflow, with structured outputs, source visibility, validation checks, and an evaluation report. Scope, document formats, integration requirements, data permissions, and success criteria would be agreed before work begins. Production deployment and ongoing monitoring require a separate scope.
+
+SCREENSHOTS TO USE AFTER LIVE VALIDATION
+1. A real concierge response with catalog citations and book cards.
+2. A real invoice extraction showing an incorrect total or suspicious document instructions.
+3. The quality lab with the measured benchmark results and visible failures.
+
+Do not describe these screenshots as client outcomes or imply unmeasured accuracy.

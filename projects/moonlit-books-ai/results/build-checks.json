@@ -1,0 +1,15 @@
+{
+  "catalog": "Open Library",
+  "records": 24,
+  "all_records_trace_to_cached_api_responses": true,
+  "code_and_provenance_tests_passed": 28,
+  "live_cases": 18,
+  "live_cases_passed": 18,
+  "invoice_field_groups_correct": 70,
+  "invoice_field_groups_total": 70,
+  "known_failed_cases": [],
+  "catalog_sha256": "754bdc9d6f45228c711a7e0d4e611c4bc75e22e61f0f2da9da2f1baadec287eb",
+  "notes": "Missing-title handoff is an explicit application rule. This public regression suite measures the combined workflow, not unassisted model capability. Named/quoted and selected in-stock formats are covered; other phrasing can still fail.",
+  "pipeline_version": "openlibrary-title-handoff-v3",
+  "browser_missing_title_shortcut": "human confirmation notice visible; no unrelated recommendations"
+}

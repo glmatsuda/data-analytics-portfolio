@@ -1,0 +1,25 @@
+book_id,title,author,genre,tags,price_usd,stock,blurb
+BK001,The Teapot at the Edge of Tomorrow,Mira Vale,Cozy fantasy,cozy magical found-family gentle tea hopeful,17.50,8,A retired storm mage opens a teashop where tomorrow arrives one cup too early.
+BK002,A Map of Small Wonders,Jonah Reed,Cozy fantasy,cozy magical gentle hopeful friendship travel,18.00,5,An apprentice cartographer maps the tiny miracles everyone else walks past.
+BK003,The Last Library on Europa,Iris North,Science fiction,space library mystery atmospheric thoughtful exploration,22.00,7,A librarian on an ice moon discovers that a missing book predicts the next supply ship.
+BK004,"Orbit, Interrupted",Sam Calder,Science fiction,space funny fast-paced adventure found-family,16.00,12,A repair crew inherits a spaceship that insists it is a luxury hotel.
+BK005,The Clockmaker's Alibi,Ellis Rowan,Mystery,mystery puzzle historical atmospheric clocks,19.00,4,A clock repairer investigates an impossible theft during a town-wide power failure.
+BK006,Murder at the Midnight Market,Nia Bell,Mystery,mystery cozy food market puzzle gentle,15.00,9,A night-market baker follows a trail of misplaced recipe cards to solve a fictional crime.
+BK007,Field Notes for Slow Sundays,Ada Moss,Nature,nature calm reflective gentle outdoors essays,21.00,6,"Short fictional essays invite readers to notice moss, weather and small neighborhood habitats."
+BK008,A Pocket Guide to Imaginary Birds,Theo Wren,Nature,nature illustrated whimsical gentle funny birds,14.00,11,An original illustrated field-guide concept describes invented birds and their improbable habits.
+BK009,Python for Curious Booksellers,Alex Finch,Technology,python programming beginner data automation practical,28.00,3,A fictional beginner workbook uses bookstore inventory to introduce data processing.
+BK010,The Friendly SQL Notebook,Casey Park,Technology,sql database beginner data analytics practical,26.00,6,A fictional practical guide teaches query patterns through a small shop database.
+BK011,The Lantern Keeper's Promise,Leah Hart,Fantasy,fantasy magical adventure sea atmospheric hopeful,20.00,0,A keeper must relight the harbor lantern before an island disappears from every map.
+BK012,Postcards from a Borrowed Planet,Ren Sol,Science fiction,space reflective literary thoughtful travel,18.50,8,A traveler writes letters from a planet that lets visitors borrow one forgotten memory.
+BK013,The Case of the Missing Encore,Robin Gray,Mystery,mystery music puzzle theater fast-paced,18.00,4,A stage manager investigates a vanished musical score on opening night.
+BK014,Mooncakes and Meteor Showers,June Lin,Romance,romance cozy food gentle hopeful community,16.50,10,Two fictional neighbors turn a rooftop baking club into a celebration of second chances.
+BK015,A Garden for the After Hours,Sage Brook,Nature,nature calm gardening reflective practical,23.00,5,An original handbook concept explores the pleasures of a small moonlit garden.
+BK016,How to Befriend a Lighthouse,Kit Morgan,Cozy fantasy,cozy fantasy sea whimsical gentle friendship,19.50,7,An anxious keeper discovers that a lonely lighthouse communicates through weather.
+BK017,The Paper Dragon Delivery Service,Wren Ash,Cozy fantasy,cozy fantasy funny adventure found-family dragons,18.00,0,A bicycle courier teams up with a paper dragon to deliver letters to impossible addresses.
+BK018,Tomorrow's Lost and Found,Drew Ellis,Science fiction,science fiction funny time-travel mystery hopeful,17.00,9,A clerk at a railway lost-and-found starts receiving objects that have not been invented.
+BK019,The Velvet Comet,Morgan Hale,Fantasy,fantasy dark atmospheric adventure epic,24.00,5,A fictional astronomer follows a comet that casts a different shadow over every city.
+BK020,Tea-Stained Algorithms,Bea Quill,Technology,technology ai data governance practical thoughtful,25.00,4,A fictional essay collection asks how small businesses can make automated decisions understandable.
+BK021,The Unlikely Cat Detective,Pip Lane,Mystery,mystery cozy funny cats gentle puzzle,13.50,15,A cat-sitter notices that every missing key in town belongs to the same forgotten door.
+BK022,Starlight for Beginners,Arden Fox,Science fiction,space beginner gentle hopeful short-stories,15.50,8,Original short-story concepts follow ordinary people doing small acts of kindness in space.
+BK023,The River That Collected Names,Faye Alder,Fantasy,fantasy literary reflective atmospheric river,21.00,3,A ferryman returns forgotten names to the people who once needed them.
+BK024,"Shelves, Spreadsheets and Serendipity",Taylor Birch,Technology,excel inventory beginner data practical business,24.50,5,A fictional guide connects thoughtful shop management with transparent spreadsheet habits.

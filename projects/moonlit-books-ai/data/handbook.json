@@ -1,0 +1,42 @@
+[
+  {
+    "id": "H01",
+    "title": "Returns and exchanges",
+    "text": "Moonlit Books is a fictional shop. Unread books in saleable condition may be returned with a receipt within 14 calendar days of purchase. Final-sale items and personalized signed copies are excluded. Store credit is offered for eligible gifts with a gift receipt."
+  },
+  {
+    "id": "H02",
+    "title": "Special orders",
+    "text": "Staff may record a special-order request for books absent from the catalog, but availability and delivery dates must be confirmed by a human bookseller. This demo cannot place orders, reserve stock, charge customers or guarantee shipment."
+  },
+  {
+    "id": "H03",
+    "title": "Book club and events",
+    "text": "The fictional shop hosts its Lantern Book Club on the first Thursday of each month at 6:30 pm. Capacity is 12 people. Guests should ask a staff member to confirm a seat; this demo cannot book one."
+  },
+  {
+    "id": "H04",
+    "title": "Accessibility and contact",
+    "text": "The fictional shop has a step-free entrance and a quiet browsing hour on Sundays from 10 to 11 am. Staff can help locate large-print titles, subject to stock confirmation. No real street address, phone number or opening schedule is represented."
+  },
+  {
+    "id": "H05",
+    "title": "Supplier invoice review",
+    "text": "Approved fictional suppliers are Lantern Leaf Distribution (V001), Northstar Small Press (V002), and Paper Moon Wholesale (V003). Invoice currency must be USD. Invoice IDs must not duplicate a previously received invoice. Quantities and unit prices must be positive. Line items must match catalog book IDs. Subtotal, tax and total must reconcile to the cent. Human review is required before any external accounting entry or payment."
+  },
+  {
+    "id": "H06",
+    "title": "Evidence and limitations",
+    "text": "Moonlit Books is a fictional shop using real book titles, authors, first publication years and subjects from a cached Open Library snapshot. Shelf genres and reading tags are editorial portfolio curation. Prices, inventory, suppliers, invoices, policies and events are simulated. Recommendations must reference supplied catalog records, and must not invent facts or imply that the full books have been read. No book text or publisher description is included. Source links open the Open Library work record. This prototype cannot place orders, reserve stock or make payments."
+  },
+  {
+    "id": "H07",
+    "title": "Privacy",
+    "text": "The fictional shop assistant does not need customer names, addresses, payment information or other private customer data. Conversations in this demo use local inference; only benchmark fixtures and explicit review decisions are saved by the application."
+  },
+  {
+    "id": "H08",
+    "title": "Pricing and stock",
+    "text": "Catalog prices are fictional USD prices for this demo, excluding any sales tax. Stock values are a frozen synthetic snapshot. Stock is not reserved by a recommendation. Staff must confirm availability before a real purchase."
+  }
+]

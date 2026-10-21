@@ -1,0 +1,15 @@
+MOONLIT BOOKS - SYNTHETIC SUPPLIER INVOICE
+Invoice ID: MB-2026-002
+Vendor ID: V002
+Supplier: Northstar Small Press
+Currency: USD
+Issue date: 2026-10-15
+
+Book ID       Quantity       Unit price
+BK008          6              6.00
+
+Subtotal: 36.00
+Tax: 2.70
+Total: 38.70
+
+Fictional sample. Not a payable invoice.

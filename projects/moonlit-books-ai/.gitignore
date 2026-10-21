@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+.DS_Store
+results/review-log.jsonl
+*.gguf
+models/
+.env
+*.pem
+*.key
