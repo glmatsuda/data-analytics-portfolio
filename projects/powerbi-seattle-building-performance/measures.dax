@@ -1,0 +1,7 @@
+Median eligible WN EUI = CALCULATE(MEDIAN('Seattle Building Performance'[WN EUI]), 'Seattle Building Performance'[Eligible EUI] = 1)
+
+Reports = COUNTROWS('Seattle Building Performance')
+
+Eligible reports = CALCULATE([Reports], 'Seattle Building Performance'[Eligible EUI] = 1)
+
+Matched cohort median EUI = CALCULATE(MEDIAN('Seattle Building Performance'[WN EUI]), 'Seattle Building Performance'[Matched Cohort] = 1)

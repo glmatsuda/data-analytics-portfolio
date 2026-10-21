@@ -1,0 +1,39 @@
+{
+  "rows": 38309,
+  "building_year_keys_unique": true,
+  "peer_minimum_n": 20,
+  "benchmark_population": "Same reporting year and property use; compliant, not demolished, positive weather-normalized EUI. Fixed reference across narrower dashboard filters. Percentile uses strictly lower observations; ties share a rank.",
+  "continuous_cohort_definition": "Eligible in all six reporting years 2019\u20132024 and same reported property use in every year. No causal efficiency claim.",
+  "continuous_cohort_buildings": 2122,
+  "matched_endpoints_count": 2691,
+  "default_2024": {
+    "reporting_year": 2024,
+    "reports": 3712,
+    "eligible_eui": 3425,
+    "eligible_rate": 0.9226831896551724,
+    "median_eligible_eui": 35.5,
+    "matched_cohort_reports": 2122,
+    "matched_cohort_median_eui": 34.90000153,
+    "nonnegative_compliant_ghg_reports": 3458,
+    "partial_reported_ghg_tons": 997938.9999999997
+  },
+  "baseline_2019": {
+    "reporting_year": 2019,
+    "reports": 3456,
+    "eligible_eui": 3116,
+    "eligible_rate": 0.9016203703703703,
+    "median_eligible_eui": 38.59999847,
+    "matched_cohort_reports": 2122,
+    "matched_cohort_median_eui": 36.850000385,
+    "nonnegative_compliant_ghg_reports": 3148,
+    "partial_reported_ghg_tons": 930844.2000000002
+  },
+  "source_database_sha256": "fb375f1ea6a3938ac72b5a12270270e38154a80b9d1079ede2f5a4cb605355df",
+  "limitations": [
+    "2024 is a deliberate analysis year; 2025 records exist and finalization is unverified.",
+    "Weather-normalized EUI is nonadditive. No modeled savings, retrofit ROI, or causal effect is claimed.",
+    "GHG figures are partial sums of nonnegative reported compliant records, not citywide emissions estimates.",
+    "Changing or unknown reported property uses can remove buildings from matched cohorts. Peer group controls only for reported property use and year, not all building characteristics.",
+    "No outlier winsorization or hidden imputation. Eligibility excludes nonpositive EUI but does not certify remaining measurements as accurate."
+  ]
+}
