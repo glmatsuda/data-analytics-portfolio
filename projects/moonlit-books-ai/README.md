@@ -23,7 +23,7 @@ python3 -m pip install -r requirements.txt
 python3 app.py
 ```
 
-Open **http://127.0.0.1:8867**. Keep the server Terminal running; stop with Control+C. `Start Moonlit Books.command` is a convenience launcher for the original Mac.
+Open **http://127.0.0.1:8867**. Keep the server Terminal running; stop with Control+C. `Start Moonlit Books.command` is a macOS convenience launcher; Python 3 must be available on your PATH.
 
 On the first launch, the importer performs three bounded, cached Open Library Search API requests for a curated list of 24 lookup targets. It validates title/author matches and work identifiers, including two explicitly reviewed original-title aliases for Frankenstein and the Sherlock Holmes story collection. Among matching records it prefers the one with the most editions; this is a selection heuristic, not a guarantee of bibliographic correctness. Unmatched optional targets are omitted and disclosed; an incomplete essential catalog fails explicitly rather than fabricating metadata. Subsequent launches reuse the saved catalog without network access. Only book lookup terms are sent to Open Library; concierge questions and invoice text stay local.
 
@@ -85,7 +85,7 @@ Ollama and model weights are separate dependencies. [Qwen3 8B](https://ollama.co
 
 ## Open Library run before the handoff fix
 
-The corrected catalog imported all **24/24 lookup targets**. All **17 code/provenance tests** passed. The real Qwen3 run passed **17/18 cases**, with **70/70 invoice field groups** correct. `missing-title` failed because the assistant did not set the expected human-handoff flag for an absent title. Its actual response and checks remain in `results/evaluation.json`; this was the failure addressed by the handoff rule described below, and was not hidden or excluded. The earlier Open Library matching run is preserved separately under `results/archive/openlibrary-initial-matches`. The latest report fingerprint matches the current catalog.
+The corrected catalog imported all **24/24 lookup targets**. All **17 code/provenance tests** passed. The real Qwen3 run passed **17/18 cases**, with **70/70 invoice field groups** correct. `missing-title` failed because the assistant did not set the expected human-handoff flag for an absent title. Its actual response and checks remain in `results/archive/openlibrary-before-handoff-fix/evaluation.json`; this was the failure addressed by the handoff rule described below, and was not hidden or excluded. The earlier Open Library matching run is preserved separately under `results/archive/openlibrary-initial-matches`. The latest report fingerprint matches the current catalog.
 
 ## Missing-title handoff rule
 
