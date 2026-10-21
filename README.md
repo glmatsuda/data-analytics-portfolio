@@ -15,8 +15,8 @@ Independent portfolio by **Gian-Luca Matsuda**. Nine projects demonstrating data
 | [Seattle energy modeling in R](projects/rstudio-building-energy-model/) | Seattle public building reports | Temporal regression, baseline comparison, model card |
 | [Fremont mobility research in R](projects/rstudio-fremont-mobility/) | Seattle public counter records | Coverage-aware modeling, SQL mart, count regression |
 | [Seattle relational energy model](projects/seattle-energy-relational-model/) | Seattle public building reports | Conceptual/logical/physical modeling, provenance, SQL constraints |
-| [Seattle building performance in Power BI](projects/powerbi-seattle-building-performance/) | Seattle public building reports | Native PBIX, cohort comparison, peer outliers, linked filtering |
-| [Seattle energy research atlas in Tableau](projects/tableau-seattle-energy-atlas/) | Seattle public building reports | Native TWBX, seven worksheets, cohort research, reporting coverage, selection actions |
+| [Seattle building performance in Power BI](https://github.com/glmatsuda/data-science-portfolio/tree/main/projects/powerbi-seattle-building-performance) | Seattle public building reports | Native PBIX, cohort comparison, peer outliers, linked filtering |
+| [Seattle energy research atlas in Tableau](https://github.com/glmatsuda/data-science-portfolio/tree/main/projects/tableau-seattle-energy-atlas) | Seattle public building reports | Native TWBX, seven worksheets, cohort research, reporting coverage, selection actions |
 
 ## Recommended starting points
 
@@ -39,13 +39,13 @@ Generated SQLite databases are intentionally excluded from version control and a
 
 ![Power BI peer explorer](projects/powerbi-seattle-building-performance/peer-explorer.png)
 
-[Download the editable report and explore the project](projects/powerbi-seattle-building-performance/)
+[Download the editable report and explore the project](https://github.com/glmatsuda/data-science-portfolio/tree/main/projects/powerbi-seattle-building-performance)
 
 ### Native Tableau dashboard
 
 ![Tableau peer performance atlas](projects/tableau-seattle-energy-atlas/peer-atlas.png)
 
-[Download the packaged workbook and explore the project](projects/tableau-seattle-energy-atlas/)
+[Download the packaged workbook and explore the project](https://github.com/glmatsuda/data-science-portfolio/tree/main/projects/tableau-seattle-energy-atlas)
 
 ### Seattle energy analytics platform
 
