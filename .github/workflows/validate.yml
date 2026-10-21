@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        project: [sql-retail-analytics, python-metadata-automation, governance-operations-dashboard, seattle-energy-data-platform, seattle-energy-relational-model, rstudio-fremont-mobility]
+        project: [sql-retail-analytics, python-metadata-automation, governance-operations-dashboard, seattle-energy-data-platform, seattle-energy-relational-model, rstudio-fremont-mobility, moonlit-books-ai]
     defaults:
       run:
         working-directory: projects/${{ matrix.project }}
