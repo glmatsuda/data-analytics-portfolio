@@ -1,6 +1,6 @@
 # Data science, analytics, governance & modeling portfolio
 
-Independent portfolio by **Gian-Luca Matsuda**. Seven projects demonstrating data science, data research, data governance and data modeling using SQL, Python, R/RStudio and Excel.
+Independent portfolio by **Gian-Luca Matsuda**. Nine projects demonstrating data science, data research, data governance and data modeling using SQL, Python, R/RStudio, Excel, Power BI and Tableau.
 
 **These are sample projects, not paid client engagements.** The first three use clearly labeled synthetic data. The Seattle studies use public records and are not affiliated with the City of Seattle. Code and documentation were developed with AI assistance and locally executed/validated; each project documents its methods and limitations.
 
@@ -15,6 +15,8 @@ Independent portfolio by **Gian-Luca Matsuda**. Seven projects demonstrating dat
 | [Seattle energy modeling in R](projects/rstudio-building-energy-model/) | Seattle public building reports | Temporal regression, baseline comparison, model card |
 | [Fremont mobility research in R](projects/rstudio-fremont-mobility/) | Seattle public counter records | Coverage-aware modeling, SQL mart, count regression |
 | [Seattle relational energy model](projects/seattle-energy-relational-model/) | Seattle public building reports | Conceptual/logical/physical modeling, provenance, SQL constraints |
+| [Seattle building performance in Power BI](projects/powerbi-seattle-building-performance/) | Seattle public building reports | Native PBIX, cohort comparison, peer outliers, linked filtering |
+| [Seattle energy research atlas in Tableau](projects/tableau-seattle-energy-atlas/) | Seattle public building reports | Native TWBX, seven worksheets, cohort research, reporting coverage, selection actions |
 
 ## Recommended starting points
 
@@ -29,9 +31,21 @@ Download or clone this repository, open a project folder, and follow its README.
 
 Generated SQLite databases are intentionally excluded from version control and are recreated by the documented build commands. Frozen input CSVs, diagrams, workbook, example outputs and reports are included. HTML dashboards/reports should be downloaded and opened locally; GitHub's file view displays source.
 
-**Power BI and Tableau:** the governance dashboard includes Power Query/DAX/calculated fields and build guides. Native `.pbix` and `.twbx` files are not included, and static previews are not claimed as screenshots from those tools.
+**Power BI and Tableau:** the two Seattle dashboard projects include native `.pbix` and `.twbx` files, public source data, methods and genuine application screenshots. Download the native files to interact with them; GitHub does not execute BI workbooks. The Power BI web original requires authorized account access; a public Tableau website publication has not been created. The earlier governance project remains an explicitly labeled build kit.
 
 ## Featured outputs
+
+### Native Power BI dashboard
+
+![Power BI peer explorer](projects/powerbi-seattle-building-performance/peer-explorer.png)
+
+[Download the editable report and explore the project](projects/powerbi-seattle-building-performance/)
+
+### Native Tableau dashboard
+
+![Tableau peer performance atlas](projects/tableau-seattle-energy-atlas/peer-atlas.png)
+
+[Download the packaged workbook and explore the project](projects/tableau-seattle-energy-atlas/)
 
 ### Seattle energy analytics platform
 
