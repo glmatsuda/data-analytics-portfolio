@@ -49,4 +49,4 @@ Eight energy/area metrics each have a unit, a source field, a raw value, a parse
 ## Repository map
 `build.py`: loader and reconciliation. `data/`: frozen projected public source and manifest. `model/`: executable schema, dictionary, diagram, SQL queries and metric rules. `results/`: SQLite database, actual query outputs, validation and exception records. `tests/`: meaningful integrity, mapping and aggregation tests. `PORTFOLIO-COPY.txt`: truthful reusable case description.
 
-Code: MIT (`LICENSE`). Public data: source's Public Domain designation (`DATA-LICENSE.txt`); no additional restrictions asserted by this project. Authored with AI assistance and locally executed/validated.
+Code: MIT (`LICENSE`). Public data: source's Public Domain designation (`DATA-LICENSE.txt`); no additional restrictions asserted by this project. Locally executed and validated.
