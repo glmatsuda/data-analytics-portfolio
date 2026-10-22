@@ -1,7 +1,7 @@
 # Retail SQL analytics
 > **GitHub edition:** generated SQLite databases are omitted from version control. Run this project’s documented build command first to create them locally. CSV/HTML/image example outputs and frozen inputs are included.
 
-**Synthetic portfolio demonstration. No client engagement or real customer data. AI-assisted code; review and understand it before presenting it as your work.**
+**Synthetic portfolio demonstration. No client engagement or real customer data. **
 
 
 ![Synthetic demo reference preview](preview.png)
@@ -32,4 +32,4 @@ Net revenue = quantity × price − discount for completed orders. Returned and 
 Tests independently reconstruct revenue from CSV, reconcile all monthly order counts, check first-month growth, exclude cancelled/returned revenue, and reject duplicate keys/orphan products. Queries are designed for clarity, not a demonstrated production-scale speedup.
 
 ## Portfolio caption
-Built an AI-assisted SQL analytics demonstration using 1,800 synthetic retail orders. Defined revenue rules, wrote monthly and regional analyses, and verified totals against the raw fixture. Independent demonstration; no client results or business impact claimed.
+Built an SQL analytics demonstration using 1,800 synthetic retail orders. Defined revenue rules, wrote monthly and regional analyses, and verified totals against the raw fixture. Independent demonstration; no client results or business impact claimed.
