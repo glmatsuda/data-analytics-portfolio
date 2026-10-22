@@ -1,5 +1,5 @@
 # Data governance operations dashboard
-**Synthetic portfolio demo. Fictional requests and teams; no client work. AI-assisted sample.**
+**Synthetic portfolio demo. Fictional requests and teams; no client work.**
 
 
 ![Synthetic demo reference preview](preview.png)
@@ -27,4 +27,4 @@ Grain = unique request. Reporting cutoff = June 30, 2026. Calendar days, not bus
 Source columns: ticket_id (text key), created_date/closed_date (ISO dates, null when open), domain, priority, owner_team, status (text dimensions), sla_days and age_or_cycle_days (whole calendar days), closed_flag/on_time_flag/overdue_flag (0/1 indicators). Closed flags are generated once; recompute them via the generator when changing demo logic. All source ownership/team labels are fictional.
 
 ## What can be claimed
-An AI-assisted Excel dashboard and cross-platform dashboard implementation kit using a synthetic governance workflow. Do not claim completed Power BI/Tableau implementation, tested native interaction, client adoption or measured time savings until those steps actually happen. No PBIX, PBIT, TWB or TWBX is included. Excel was evaluated and rendered with the authoring engine; native Excel opening is a separate check.
+An Excel dashboard and cross-platform dashboard implementation kit using a synthetic governance workflow. Do not claim completed Power BI/Tableau implementation, tested native interaction, client adoption or measured time savings until those steps actually happen. No PBIX, PBIT, TWB or TWBX is included. Excel was evaluated and rendered with the authoring engine; native Excel opening is a separate check.
