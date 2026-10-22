@@ -2,7 +2,7 @@
 
 Independent portfolio by **Gian-Luca Matsuda**. Ten projects demonstrating data science, data research, data governance and data modeling using SQL, Python, R/RStudio, Excel, Power BI, Tableau and local AI workflows.
 
-**These are sample projects, not paid client engagements.** The first three use clearly labeled synthetic data. The Seattle studies use public records and are not affiliated with the City of Seattle. Code and documentation were developed with AI assistance and locally executed/validated; each project documents its methods and limitations.
+**These are sample projects, not paid client engagements.** The first three use clearly labeled synthetic data. The Seattle studies use public records and are not affiliated with the City of Seattle. Each project documents its methods and limitations.
 
 ## Browse the projects
 
