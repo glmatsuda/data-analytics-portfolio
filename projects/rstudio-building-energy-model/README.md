@@ -36,7 +36,7 @@ The report and PNG are regenerated from actual R results. This is a predictive m
 
 ## Disclosure and provenance
 
-Independent portfolio demonstration using **real City of Seattle public data**. This is not paid client work, a city commission, or evidence of production results. Development was AI-assisted; review and understand the code before representing it as a personal work sample. Code is MIT licensed; the source catalogue marks the data Public Domain. See DATA-LICENSE.txt and data/source-manifest.json for attribution, field projection, study window, original export row count, hashes and retrieval date (20 October 2026). The snapshots are frozen for reproducibility; source revisions may change later results.
+Independent portfolio demonstration using **real City of Seattle public data**. This is not paid client work, a city commission, or evidence of production results. Code is MIT licensed; the source catalogue marks the data Public Domain. See DATA-LICENSE.txt and data/source-manifest.json for attribution, field projection, study window, original export row count, hashes and retrieval date (20 October 2026). The snapshots are frozen for reproducibility; source revisions may change later results.
 
 No accounts, tokens, paid services or network access are required to reproduce the included snapshot. Paths are relative to the repository root. Run commands from that root. Python 3.10+ and, for the statistical projects, R 4.2+ are required. `requirements.txt` documents that there are no third-party Python dependencies. All R packages used ship with R.
 
