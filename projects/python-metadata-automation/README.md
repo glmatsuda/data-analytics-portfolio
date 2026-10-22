@@ -1,5 +1,5 @@
 # Metadata export consolidation
-**Synthetic portfolio demonstration. No real systems, accounts or client engagement. AI-assisted code.**
+**Synthetic portfolio demonstration. No real systems, accounts or client engagement.**
 
 
 ![Synthetic demo reference preview](preview.png)
@@ -26,4 +26,4 @@ Three exports, including one repeated definition, a conflicting classification p
 Tests exercise duplicate collapsing, conflicting definitions, invalid owners, schema failure preservation, deterministic reruns, non-nested output protection and CSV formula escaping. Output replacement is atomic per file, not a transaction across all four files. Concurrent runs are not supported; schedule only one writer. This small in-memory example needs streaming, a broader type map, access control and operational monitoring before production use. No mailbox or cloud connection is made.
 
 ## Portfolio caption
-Created an AI-assisted Python automation demo that converts synthetic metadata exports into a validated catalog and exception queue. Added deterministic processing, source hashes and tests. Independent demonstration; no measured client time savings claimed.
+Created an Python automation demo that converts synthetic metadata exports into a validated catalog and exception queue. Added deterministic processing, source hashes and tests. Independent demonstration; no measured client time savings claimed.
